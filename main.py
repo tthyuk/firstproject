@@ -34,7 +34,7 @@ def main():
                  "combination_movie_recommendations": [
                      {"title": "The Social Dilemma (2020) 📱", "description": "소셜 미디어의 어두운 면과 기술이 사회에 미치는 영향을 다룬 다큐멘터리."}
                  ]},
-                {"type": "ESTJ", "reason": "비슷한 현실 지향적 사고로 영화를 감상하며, 실용적인 관점에서 영화 내용에 대한 깊이 있는 공감을 할 수 있습니다.",
+                {"type": "ESTJ", "reason": "비슷하게 현실 지향적이고 체계적인 사고를 가진 유형으로, 효율적이고 빈틈없는 여행 계획을 함께 세우는 데 최적입니다.",
                  "combination_movie_recommendations": [
                      {"title": "Contagion (2011) 🦠", "description": "치명적인 전염병의 확산과 이를 막기 위한 전 세계적인 노력을 그린 영화."}
                  ]}
@@ -91,7 +91,7 @@ def main():
         "INTJ": {
             "summary": "전략적이고 분석적이며, 독립적이고 비판적인 사고를 가진 유형입니다. 복잡한 문제를 해결하는 데 능숙하며, 미래를 계획하고 비전을 제시하는 것을 좋아합니다. 효율성과 합리성을 중시하며, 지적인 도전을 즐깁니다.",
             "movies": [
-                {"title": "The Imitation Game (2014) 💻",
+                {"title": "The Imitation Game (2014) �",
                  "description": "암호 해독가 앨런 튜링의 삶과 그의 천재성을 그린 영화입니다.",
                  "relevance": "INTJ는 복잡한 시스템을 분석하고 효율적인 전략을 세우는 데 뛰어납니다. 앨런 튜링이 남들과 다른 방식으로 문제를 접근하고, 비판적 사고를 통해 난제를 해결하는 모습은 INTJ의 독립적이고 혁신적인 사고방식을 잘 보여줍니다. 지적인 도전과 논리적 추론을 즐기는 INTJ에게 최고의 선택입니다."},
                 {"title": "Oppenheimer (2023) 💣",
@@ -104,7 +104,7 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "INTJ와 INTP는 모두 논리적이고 분석적인 사고를 선호하여 영화의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 SF 스릴러."}
+                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러."}
                  ]},
                 {"type": "ENFP", "reason": "ENFP의 창의적이고 감성적인 관점이 INTJ의 논리적 사고에 새로운 영감을 주어 영화를 더 다채롭게 이해할 수 있습니다.",
                  "combination_movie_recommendations": [
@@ -211,7 +211,7 @@ def main():
         "ESTP": {
             "summary": "현실적이고 활동적이며, 개방적이고 적응력이 뛰어난 유형입니다. 새로운 경험을 좋아하고, 문제 해결에 적극적입니다. 에너지가 넘치고 즉흥적이며, 뛰어난 관찰력으로 현실을 파악합니다. 스릴과 재미를 추구하며, 활동적인 여행을 선호합니다.",
             "movies": [
-                {"title": "The Martian (2015) �",
+                {"title": "The Martian (2015) 🥔",
                  "description": "화성에 홀로 남겨진 우주인이 과학적 지식과 실용적인 기술로 생존하는 이야기입니다.",
                  "relevance": "ESTP는 행동 지향적이며, 실제적인 문제 해결에 능합니다. 마크 와트니가 제한된 자원과 극한의 환경 속에서 자신의 지식과 기술을 활용하여 기발한 생존 방안을 찾아내는 모습은 ESTP의 실용적이고 즉흥적인 문제 해결 능력을 완벽하게 보여줍니다. 직접 몸으로 부딪혀 문제를 해결하는 것을 선호하는 ESTP에게 깊은 만족감을 줄 것입니다."},
                 {"title": "Moneyball (2011) ⚾",
@@ -414,7 +414,6 @@ def main():
     if selected_mbti:
         st.write(f"---") # 구분선
         st.subheader(f"✨ {selected_mbti} 유형을 위한 맞춤 추천 🍿")
-        # st.snow() # 눈송이 효과 제거
 
         # 선택된 MBTI 유형에 대한 정보 가져오기
         mbti_info = mbti_recommendations_full.get(selected_mbti, {})
@@ -425,20 +424,27 @@ def main():
             st.info(mbti_info["summary"])
             st.markdown("---")
 
-            # 추천 영화 목록 표시
+            # 추천 영화 목록 표시 (가로로 나열)
             st.markdown("### 추천 영화와 그 이유 🎬")
-            for movie in mbti_info["movies"]:
-                st.write(f"#### {movie['title']}") # 영화 제목
-                st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={movie['title'].split('(')[0].strip().replace(' ', '+')}",
-                         caption=f"{movie['title'].split('(')[0].strip()} 포스터", # 포스터 이미지 설명
-                         width=150) # 이미지 너비
-                st.write(f"**영화 설명:** {movie['description']}") # 영화 설명
-                st.success(f"**이 유형에 추천하는 이유:** {movie['relevance']}") # 영화 관련성 (성공 박스로 표시)
-                # 리뷰 영상 검색 링크 추가
-                movie_search_query = movie['title'].split('(')[0].strip().replace(' ', '+') # 영화 제목만 추출하여 URL 인코딩
-                youtube_link = f"https://www.youtube.com/results?search_query={movie_search_query}+영화리뷰"
-                st.markdown(f"[🎥 **'{movie['title'].split('(')[0].strip()}' 리뷰 영상 찾아보기**]({youtube_link})")
-                st.markdown("---") # 각 영화 사이에 구분선
+            
+            # 각 영화를 2개의 컬럼으로 나누어 표시
+            num_movies = len(mbti_info["movies"])
+            cols = st.columns(2) # 2개의 컬럼 생성
+
+            for i, movie in enumerate(mbti_info["movies"]):
+                with cols[i % 2]: # 현재 영화를 해당 컬럼에 배치 (0, 1, 0, 1 순으로 반복)
+                    st.write(f"##### {movie['title']}") # 영화 제목
+                    st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={movie['title'].split('(')[0].strip().replace(' ', '+')}",
+                             caption=f"{movie['title'].split('(')[0].strip()} 포스터",
+                             width=150) # 이미지 너비 조정
+                    st.markdown(f"**설명:** {movie['description']}") # 영화 설명
+                    st.success(f"**이 유형에 추천하는 이유:** {movie['relevance']}") # 영화 관련성
+                    
+                    # 리뷰 영상 검색 링크 추가
+                    movie_search_query = movie['title'].split('(')[0].strip().replace(' ', '+')
+                    youtube_link = f"https://www.youtube.com/results?search_query={movie_search_query}+영화리뷰"
+                    st.markdown(f"[🎥 **리뷰 영상**]({youtube_link})")
+                    st.markdown("<hr style='border:1px solid #f0f2f6'>", unsafe_allow_html=True) # 가벼운 구분선
 
             # 함께 영화 보기에 좋은 MBTI 조합 추천
             if "good_combinations" in mbti_info and mbti_info["good_combinations"]:
@@ -449,15 +455,21 @@ def main():
                     st.write(f"**{combo['type']}**: {combo['reason']}")
                     if "combination_movie_recommendations" in combo and combo["combination_movie_recommendations"]:
                         st.markdown(f"**두 분께 추천하는 영화:**")
-                        for combo_movie in combo["combination_movie_recommendations"]:
-                            st.write(f"  - **{combo_movie['title']}**")
-                            st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={combo_movie['title'].split('(')[0].strip().replace(' ', '+')}",
-                                     caption=f"{combo_movie['title'].split('(')[0].strip()} 포스터", # 포스터 이미지 설명
-                                     width=100) # 이미지 너비
-                            st.write(f"    {combo_movie['description']}")
-                            combo_movie_search_query = combo_movie['title'].split('(')[0].strip().replace(' ', '+')
-                            combo_youtube_link = f"https://www.youtube.com/results?search_query={combo_movie_search_query}+영화리뷰"
-                            st.markdown(f"    [🎥 **'{combo_movie['title'].split('(')[0].strip()}' 리뷰 영상 찾아보기**]({combo_youtube_link})")
+                        
+                        # 조합 추천 영화도 2개의 컬럼으로 나누어 표시
+                        combo_movies = combo["combination_movie_recommendations"]
+                        combo_cols = st.columns(2) # 2개의 컬럼 생성
+                        for j, combo_movie in enumerate(combo_movies):
+                            with combo_cols[j % 2]: # 현재 조합 영화를 해당 컬럼에 배치
+                                st.write(f"###### {combo_movie['title']}")
+                                st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={combo_movie['title'].split('(')[0].strip().replace(' ', '+')}",
+                                         caption=f"{combo_movie['title'].split('(')[0].strip()} 포스터",
+                                         width=100) # 이미지 너비 조정
+                                st.write(f"{combo_movie['description']}")
+                                combo_movie_search_query = combo_movie['title'].split('(')[0].strip().replace(' ', '+')
+                                combo_youtube_link = f"https://www.youtube.com/results?search_query={combo_movie_search_query}+영화리뷰"
+                                st.markdown(f"[🎥 **리뷰 영상**]({combo_youtube_link})")
+                                st.markdown("<hr style='border:0.5px solid #f0f2f6'>", unsafe_allow_html=True) # 더 가벼운 구분선
                     st.markdown("---") # 각 조합 사이에 구분선
             else:
                 st.info(f"{selected_mbti} 유형과 함께 영화 보기에 좋은 특정 MBTI 조합 정보가 아직 없습니다. 😅")
