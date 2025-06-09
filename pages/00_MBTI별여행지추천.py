@@ -29,11 +29,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFP", "reason": "ENFP의 즉흥적인 매력과 새로운 시도가 ISTJ의 계획적인 여행에 활력을 불어넣어 예측치 못한 즐거움을 발견하게 할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "스페인 바르셀로나 🇪🇸", "description": "가우디 건축물과 활기찬 시장, 밤문화가 어우러진 도시. ISTJ는 계획된 문화 탐방과 ENFP의 즉흥적인 맛집 탐험, 축제 참여가 조화를 이루며 예상치 못한 즐거움을 찾을 수 있습니다."}
+                     {"name": "스페인 바르셀로나 🇪🇸", "description": "가우디 건축물과 활기찬 시장, 밤문화가 어우러진 도시."},
+                     {"name": "쿠바 아바나 🇨🇺", "description": "시간이 멈춘 듯한 올드카와 다채로운 색감의 건축물, 그리고 활기찬 음악이 넘치는 도시."}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 현실 지향적이고 체계적인 사고를 가진 유형으로, 효율적이고 빈틈없는 여행 계획을 함께 세우는 데 최적입니다.",
                  "combination_recommendations": [
-                     {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳. ISTJ와 ESTJ는 효율적인 동선으로 주요 역사 유적을 탐방하고, 박물관을 꼼꼼히 둘러보며 의미 있는 학습 여행을 계획할 수 있습니다."}
+                     {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳."},
+                     {"name": "스위스 제네바 🇨�", "description": "CERN 등 과학 연구 기관이 있는 지적인 도시로, 효율적인 시스템을 자랑합니다."}
                  ]}
             ]
         },
@@ -48,13 +50,15 @@ def main():
                  "relevance": "ISFJ는 따뜻하고 정감 있는 분위기에서 진정한 휴식을 얻습니다. 스위스의 조용하고 아름다운 시골 마을은 ISFJ에게 평온함을 선사하고, 소규모 커뮤니티와의 교류를 통해 따뜻한 유대감을 형성하는 데 도움이 됩니다."}
             ],
             "good_combinations": [
-                {"type": "ESFP", "reason": "ESFP의 밝고 긍정적인 에너지가 ISFJ에게 편안함을 주고, 영화 감상을 더욱 즐겁게 만들어줍니다.",
+                {"type": "ESFP", "reason": "ESFP의 밝고 긍정적인 에너지가 ISFJ에게 편안함을 주고, 여행을 더욱 즐겁게 만들어줍니다.",
                  "combination_recommendations": [
-                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다. ISFJ는 마을의 고즈넉한 아름다움과 평온함을 즐기고, ESFP는 사진 촬영이나 기념품 쇼핑 등 활기찬 활동을 제안하며 즐거운 추억을 만들 수 있습니다."}
+                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다."},
+                     {"name": "네덜란드 암스테르담 🌷", "description": "아름다운 운하와 예술적인 분위기, 그리고 친근한 현지인들이 있는 도시."}
                  ]},
                 {"type": "ISTJ", "reason": "비슷한 현실 지향적이고 안정적인 성향으로 여행에 대한 깊은 공감대를 형성할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "캐나다 밴쿠버 🇨🇦", "description": "도시와 자연이 조화롭게 어우러진 곳으로, 안정적이고 안전한 환경을 제공합니다. ISFJ와 ISTJ는 잘 계획된 투어와 편안한 숙박을 통해 안전하고 효율적인 여행을 즐기면서도 자연 속에서 휴식을 취할 수 있습니다."}
+                     {"name": "캐나다 밴쿠버 🇨🇦", "description": "도시와 자연이 조화롭게 어우러진 곳으로, 안정적이고 안전한 환경을 제공합니다."},
+                     {"name": "오스트리아 비엔나 🎻", "description": "클래식 음악과 예술, 그리고 유서 깊은 건축물이 조화를 이루는 안정적인 도시."}
                  ]}
             ]
         },
@@ -71,11 +75,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFJ와 ENFP는 감성적 유대감을 형성하며 여행지의 숨겨진 의미와 아름다움을 함께 탐구하고 감정을 공유합니다.",
                  "combination_recommendations": [
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다. INFJ는 예술 작품의 깊은 의미와 역사적 배경을 탐구하고, ENFP는 도시의 활기찬 분위기 속에서 영감을 얻으며, 서로에게 새로운 시각을 제공하며 즐거운 여행을 할 수 있습니다."}
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."},
+                     {"name": "포르투갈 리스본 🇵🇹", "description": "아름다운 풍경과 역사적인 매력, 그리고 따뜻한 사람들이 있는 도시."}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 논리적인 분석과 INFJ의 통찰력이 만나 여행지에 대한 풍부하고 다각적인 대화를 이끌어낼 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다. INFJ는 고대 문명의 지혜와 철학적 의미에 몰입하고, ENTP는 유적의 구조와 역사적 사건에 대해 논리적으로 분석하며, 깊이 있는 대화를 통해 여행의 가치를 더할 수 있습니다."}
+                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다."},
+                     {"name": "이집트 카이로 🇪🇬", "description": "고대 문명의 신비와 거대한 유적을 탐험하며 역사적, 철학적 의미를 탐구하기 좋은 곳."}
                  ]}
             ]
         },
@@ -92,11 +98,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "INTJ와 INTP는 모두 논리적이고 분석적인 사고를 선호하여 여행지의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "일본 나오시마 🇯🇵", "description": "예술과 자연이 조화된 '예술의 섬'으로, 독특한 건축물과 현대 미술 작품이 많습니다. INTJ와 INTP는 섬의 공간 활용과 예술 작품의 의미를 분석하며 지적인 대화를 나누고, 독특한 미적 경험을 공유할 수 있습니다."}
+                     {"name": "일본 나오시마 🇯🇵", "description": "예술과 자연이 조화된 '예술의 섬'으로, 독특한 건축물과 현대 미술 작품이 많습니다."},
+                     {"name": "스위스 제네바 🇨🇭", "description": "CERN 등 세계적인 과학 연구 기관이 있는 도시."}
                  ]},
                 {"type": "ENFP", "reason": "ENFP의 창의적이고 감성적인 관점이 INTJ의 논리적 사고에 새로운 영감을 주어 여행을 더 다채롭게 이해할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳. INTJ는 대자연 속에서 사색하고, ENFP는 다양한 액티비티와 현지 문화를 체험하며, 서로의 다른 관점을 통해 여행을 풍부하게 만들 수 있습니다."}
+                     {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳."},
+                     {"name": "캐나다 밴프 🇨🇦", "description": "로키 산맥의 웅장한 자연 속에서 하이킹, 스키 등 다양한 활동을 즐길 수 있는 국립공원."}
                  ]}
             ]
         },
@@ -113,11 +121,13 @@ def main():
             "good_combinations": [
                 {"type": "ESFP", "reason": "ISTP의 논리적이고 실용적인 면모와 ESFP의 활동적이고 즉흥적인 면모가 결합하여 여행에 대한 흥미로운 관점과 즉각적인 반응을 공유할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시. ISTP는 도시의 복잡한 시스템을 탐색하고, ESFP는 길거리 음식 탐험이나 나이트라이프를 즐기며 활기찬 경험을 함께 할 수 있습니다."}
+                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시."},
+                     {"name": "스페인 이비자 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다."}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 창의적인 아이디어와 ISTP의 문제 해결 능력이 시너지를 내어 여행지의 복잡한 설정이나 과학적 원리에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "아이슬란드 🇮🇸", "description": "활화산, 빙하, 온천 등 독특한 지형이 많은 곳. ISTP는 자연 속에서 새로운 도전을 찾고, ENTP는 지질학적 현상에 대한 궁금증을 풀며 서로의 지적 호기심과 모험심을 충족시킬 수 있습니다."}
+                     {"name": "아이슬란드 🇮🇸", "description": "활화산, 빙하, 온천 등 독특한 지형이 많은 곳."},
+                     {"name": "독일 베를린 🇩🇪", "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시."}
                  ]}
             ]
         },
@@ -134,11 +144,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFJ", "reason": "ENFJ의 따뜻하고 지지적인 성향이 ISFP의 감수성과 어우러져 여행 속에서 깊이 있는 감정을 나누고 서로에게 영감을 줄 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "스페인 세비야 💃", "description": "정열적인 플라멩코와 아름다운 알카사르 궁전이 있는 곳. ISFP는 도시의 예술적 아름다움과 감성적인 분위기에 몰입하고, ENFJ는 현지인과의 교류를 통해 문화적 경험을 풍부하게 만들며, 함께 열정적인 추억을 쌓을 수 있습니다."}
+                     {"name": "스페인 세비야 💃", "description": "정열적인 플라멩코와 아름다운 알카사르 궁전이 있는 곳."},
+                     {"name": "쿠바 아바나 🇨🇺", "description": "시간이 멈춘 듯한 올드카와 다채로운 색감의 건축물, 그리고 활기찬 음악이 넘치는 도시."}
                  ]},
                 {"type": "INFP", "reason": "ISFP와 INFP는 비슷한 감성적 깊이를 가지고 있어 여행이 전달하는 메시지나 감동을 함께 느끼고 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "제주도, 대한민국 🍊", "description": "아름다운 자연 경관과 독특한 문화가 어우러진 섬. ISFP와 INFP는 올레길을 걸으며 자연 속에서 평화를 찾고, 아기자기한 카페에서 예술적인 영감을 얻으며, 서로의 감성과 생각을 공유하며 힐링할 수 있습니다."}
+                     {"name": "제주도, 대한민국 🍊", "description": "아름다운 자연 경관과 독특한 문화가 어우러진 섬."},
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."}
                  ]}
             ]
         },
@@ -155,11 +167,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFP와 ENFP는 모두 이상주의적이고 감수성이 풍부하여 여행지의 숨겨진 의미나 감성적인 부분에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "포르투갈 리스본 🇵🇹", "description": "아름다운 풍경과 역사적인 매력, 그리고 따뜻한 사람들이 있는 도시. INFP는 도시의 예술적인 분위기와 감성적인 골목길을 탐험하고, ENFP는 활기찬 시장과 음악을 즐기며, 서로의 감성과 영감을 풍부하게 나눌 수 있습니다."}
+                     {"name": "포르투갈 리스본 🇵🇹", "description": "아름다운 풍경과 역사적인 매력, 그리고 따뜻한 사람들이 있는 도시."},
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 INFP의 이상주의가 만나 여행지의 철학적 메시지에 대해 심도 깊은 논의를 할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "인도 바라나시 🇮🇳", "description": "삶과 죽음이 공존하는 신비로운 도시로, 강가에서 영적인 경험을 할 수 있습니다. INFP와 INFJ는 삶의 본질과 영적인 의미에 대해 깊이 성찰하며, 서로의 통찰력을 공유하고 특별한 경험을 함께 할 수 있습니다."}
+                     {"name": "인도 바라나시 🇮🇳", "description": "삶과 죽음이 공존하는 신비로운 도시로, 강가에서 영적인 경험을 할 수 있습니다."},
+                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다."}
                  ]}
             ]
         },
@@ -176,11 +190,13 @@ def main():
             "good_combinations": [
                 {"type": "INTJ", "reason": "INTP와 INTJ는 모두 논리적이고 분석적인 사고를 선호하여 여행지의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "미국 워싱턴 D.C. 🇺🇸", "description": "스미소니언 박물관과 다양한 국립 박물관이 밀집해 있는 도시. INTP와 INTJ는 역사, 과학, 예술 등 다양한 분야의 전시를 꼼꼼히 탐색하고, 복잡한 지적 주제에 대해 깊이 있는 대화를 나눌 수 있습니다."}
+                     {"name": "일본 나오시마 🇯🇵", "description": "예술과 자연이 조화된 '예술의 섬'으로, 독특한 건축물과 현대 미술 작품이 많습니다."},
+                     {"name": "미국 워싱턴 D.C. 🇺🇸", "description": "스미소니언 박물관과 다양한 국립 박물관이 밀집해 있는 도시."}
                  ]},
                 {"type": "ENTP", "reason": "비슷한 지적 호기심과 논리적 탐구심을 공유하여 여행지의 복잡한 주제에 대해 흥미로운 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다. INTP와 ENTP는 도시의 다양한 측면을 탐구하고, 새로운 아이디어와 논쟁적인 주제에 대해 활발하게 토론하며 지적인 즐거움을 얻을 수 있습니다."}
+                     {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다."},
+                     {"name": "아이슬란드 🇮🇸", "description": "활화산, 빙하, 온천 등 독특한 지형이 많은 곳."}
                  ]}
             ]
         },
@@ -197,11 +213,13 @@ def main():
             "good_combinations": [
                 {"type": "ESFP", "reason": "ESTP의 현실적인 관점과 ESFP의 예술적인 감각이 만나 영화를 다양한 시각에서 즐길 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "이비자, 스페인 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다. ESTP와 ESFP는 함께 파티를 즐기고, 즉흥적으로 새로운 경험을 탐색하며 최고의 에너지를 발산할 수 있습니다."}
+                     {"name": "이비자, 스페인 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다."},
+                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시."}
                  ]},
                 {"type": "ENTJ", "reason": "ENTJ의 전략적인 사고와 ESTP의 실행력이 결합하여 여행의 주제나 전개에 대해 활발하고 생산적인 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시. ESTP는 도시의 스케일과 최첨단 기술을 직접 경험하고, ENTJ는 도시의 전략적 개발과 미래 비전에 대해 논의하며 서로에게 영감을 줄 수 있습니다."}
+                     {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시."},
+                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시."}
                  ]}
             ]
         },
@@ -218,11 +236,13 @@ def main():
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFP의 밝은 에너지와 ISFJ의 차분하고 배려심 깊은 성향이 어우러져 편안하고 즐거운 영화 감상 분위기를 만듭니다.",
                  "combination_recommendations": [
-                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다. ESFP는 사진 촬영이나 기념품 쇼핑 등 활기찬 활동을 제안하고, ISFJ는 마을의 고즈넉한 아름다움과 평온함을 즐기며, 서로에게 새로운 경험을 선사할 수 있습니다."}
+                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다."},
+                     {"name": "네덜란드 암스테르담 🌷", "description": "아름다운 운하와 예술적인 분위기, 그리고 친근한 현지인들이 있는 도시."}
                  ]},
                 {"type": "ENFP", "reason": "ESFP와 ENFP는 비슷한 낙천적이고 사교적인 성향으로 영화에 대한 활발한 감정 공유와 재미있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시. ESFP와 ENFP는 도시의 에너지를 함께 느끼고, 즉흥적인 탐험과 새로운 문화 체험을 통해 즐거움을 배가시킬 수 있습니다."}
+                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시."},
+                     {"name": "스페인 이비자 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다."}
                  ]}
             ]
         },
@@ -239,11 +259,13 @@ def main():
             "good_combinations": [
                 {"type": "INFJ", "reason": "ENFP의 열정적인 아이디어와 INFJ의 통찰력이 만나 여행지의 깊은 의미와 숨겨진 메시지에 대해 풍부한 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다. ENFP는 도시의 활기찬 분위기 속에서 영감을 얻고, INFJ는 예술 작품의 깊은 의미와 역사적 배경을 탐구하며, 서로에게 새로운 시각을 제공하며 즐거운 여행을 할 수 있습니다."}
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."},
+                     {"name": "인도 바라나시 🇮🇳", "description": "삶과 죽음이 공존하는 신비로운 도시로, 강가에서 영적인 경험을 할 수 있습니다."}
                  ]},
                 {"type": "INTJ", "reason": "INTJ의 논리적이고 분석적인 관점에 ENFP의 창의적인 사고가 더해져 여행지를 다각도로 해석하고 새로운 관점을 공유할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳. ENFP는 다양한 액티비티와 현지 문화를 체험하고, INTJ는 대자연 속에서 사색하며, 서로의 다른 관점을 통해 여행을 풍부하게 만들 수 있습니다."}
+                     {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳."},
+                     {"name": "캐나다 밴프 🇨🇦", "description": "로키 산맥의 웅장한 자연 속에서 하이킹, 스키 등 다양한 활동을 즐길 수 있는 국립공원."}
                  ]}
             ]
         },
@@ -260,11 +282,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTP와 INTP는 모두 지적인 호기심과 논리적 탐구심이 강하여 여행지의 복잡한 주제나 과학적 원리에 대해 심도 깊은 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다. ENTP와 INTP는 도시의 다양한 측면을 탐구하고, 새로운 아이디어와 논쟁적인 주제에 대해 활발하게 토론하며 지적인 즐거움을 얻을 수 있습니다."}
+                     {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다."},
+                     {"name": "스위스 제네바 🇨🇭", "description": "CERN 등 세계적인 과학 연구 기관이 있는 도시."}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 ENTP의 논리적 분석이 만나 여행지의 숨겨진 의미와 철학적 메시지에 대해 풍부하고 깊이 있는 논의를 이끌어낼 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다. ENTP는 유적의 구조와 역사적 사건에 대해 논리적으로 분석하고, INFJ는 고대 문명의 지혜와 철학적 의미에 몰입하며, 깊이 있는 대화를 통해 여행의 가치를 더할 수 있습니다."}
+                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다."},
+                     {"name": "이집트 카이로 🇪🇬", "description": "고대 문명의 신비와 거대한 유적을 탐험하며 역사적, 철학적 의미를 탐구하기 좋은 곳."}
                  ]}
             ]
         },
@@ -281,11 +305,13 @@ def main():
             "good_combinations": [
                 {"type": "ISTJ", "reason": "ESTJ와 ISTJ는 모두 현실적이고 체계적인 사고를 선호하여 여행의 사실적 배경이나 논리적 전개에 대해 깊은 공감대를 형성하며 감상할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳. ESTJ와 ISTJ는 효율적인 동선으로 주요 역사 유적을 탐방하고, 박물관을 꼼꼼히 둘러보며 의미 있는 학습 여행을 계획할 수 있습니다."}
+                     {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳."},
+                     {"name": "로마, 이탈리아 🏛️", "description": "고대 로마 유적지와 박물관이 풍부하여 역사적 사실과 정보를 체계적으로 탐험하기 좋은 곳."}
                  ]},
-                {"type": "ENTJ", "reason": "ENTJ와 ESTJ는 강력한 리더십과 목표 지향적인 성향을 공유하여 영화 속 전략이나 효율성에 대해 활발한 논의를 할 수 있습니다.",
+                {"type": "ENTJ", "reason": "ENTJ의 전략적인 사고와 ESTP의 실행력이 결합하여 여행의 주제나 전개에 대해 활발하고 생산적인 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시. ESTJ는 도시의 실용적인 발전과 인프라에 감탄하고, ENTJ는 도시의 전략적 개발과 미래 비전에 대해 논의하며 서로에게 영감을 줄 수 있습니다."}
+                     {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시."},
+                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시."}
                  ]}
             ]
         },
@@ -302,11 +328,13 @@ def main():
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFJ와 ISFJ는 모두 사람들과의 조화를 중요하게 생각하고 따뜻한 마음을 가지고 있어, 여행지에서 감동적인 스토리에 깊이 공감하며 함께 즐거운 시간을 보낼 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다. ESFJ는 도시의 활기찬 분위기 속에서 사람들과 어울리고, ISFJ는 예술 작품의 깊은 의미와 역사적 배경을 탐구하며, 서로에게 새로운 시각을 제공하며 즐거운 여행을 할 수 있습니다."}
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."},
+                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다."}
                  ]},
                 {"type": "ENFJ", "reason": "ENFJ의 리더십과 ESFJ의 협력적인 태도가 만나 여행에 대한 감상평을 활발하게 나누고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "하와이, 미국 🌺", "description": "아름다운 자연 속에서 휴식을 취하고, 가족이나 연인과 편안하게 시간을 보낼 수 있는 리조트 여행에 적합합니다. ESFJ는 따뜻한 분위기 속에서 사람들과의 유대감을 강화하고, ENFJ는 여행을 주도하며 모두가 즐거운 시간을 보낼 수 있도록 이끌어줍니다."}
+                     {"name": "하와이, 미국 🌺", "description": "아름다운 자연 속에서 휴식을 취하고, 가족이나 연인과 편안하게 시간을 보낼 수 있는 리조트 여행에 적합합니다."},
+                     {"name": "발리, 인도네시아 🧘‍♀️", "description": "아름다운 자연경관, 독특한 문화, 그리고 예술적인 분위기가 어우러진 곳."}
                  ]}
             ]
         },
@@ -323,11 +351,13 @@ def main():
             "good_combinations": [
                 {"type": "INFP", "reason": "ENFJ의 따뜻하고 지지적인 성향과 INFP의 감성적인 깊이가 만나 여행지에서 감정을 풍부하게 공유하고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "인도네시아 발리 🧘‍♀️", "description": "아름다운 자연 속에서 요가, 명상, 예술 활동 등을 통해 영적인 성장과 창의적인 영감을 얻을 수 있는 곳입니다. ENFJ는 여행을 주도하며 INFP가 편안하게 자신을 돌아볼 수 있도록 돕고, INFP는 ENFJ에게 새로운 예술적 관점이나 영감을 제공하며 서로에게 긍정적인 영향을 줄 수 있습니다."}
+                     {"name": "인도네시아 발리 🧘‍♀️", "description": "아름다운 자연 속에서 요가, 명상, 예술 활동 등을 통해 영적인 성장과 창의적인 영감을 얻을 수 있는 곳입니다."},
+                     {"name": "태국 치앙마이 🇹🇭", "description": "자유로운 분위기와 풍부한 문화 체험, 그리고 현지인과의 교류가 용이한 도시."}
                  ]},
                 {"type": "ESFJ", "reason": "비슷하게 사교적이고 협력적인 성향으로 여행 감상 후 활발한 대화를 나누며 즐거움을 배가시킬 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다. ENFJ와 ESFJ는 도시의 활기찬 분위기 속에서 사람들과 어울리고, 아름다운 예술 작품을 감상하며 서로의 감성을 풍부하게 나누고 즐거운 추억을 만들 수 있습니다."}
+                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다."},
+                     {"name": "스페인 바르셀로나 🇪🇸", "description": "활기찬 분위기와 아름다운 건축물, 맛있는 음식이 있는 도시."}
                  ]}
             ]
         },
@@ -344,11 +374,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTJ의 리더십과 INTP의 깊은 분석력이 결합하여 여행지의 복잡한 주제나 숨겨진 의미에 대해 심도 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "스위스 제네바 🇨🇭", "description": "CERN(유럽 입자 물리 연구소)과 같은 과학 연구 기관이 있는 도시로, 물리학과 우주의 비밀을 탐구하기 좋습니다. ENTJ는 연구소의 운영 효율성과 목표 달성 과정을 분석하고, INTP는 복잡한 과학 이론에 몰입하며 지적인 자극을 주고받을 수 있습니다."}
+                     {"name": "스위스 제네바 🇨🇭", "description": "CERN(유럽 입자 물리 연구소)과 같은 과학 연구 기관이 있는 도시로, 물리학과 우주의 비밀을 탐구하기 좋습니다."},
+                     {"name": "독일 베를린 🇩🇪", "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시."}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 목표 지향적이고 효율성을 중시하는 성향으로 여행의 전개나 전략적 요소에 대해 깊이 공감하며 활발한 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시. ENTJ와 ESTJ는 도시의 체계적인 계획과 효율성에 감탄하고, 잘 정돈된 환경에서 목표 지향적인 여행을 즐기며 깊이 공감할 수 있습니다."}
+                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시."},
+                     {"name": "독일 프랑크푸르트 🇩🇪", "description": "유럽의 주요 금융 허브로, 현대적인 건축물과 효율적인 도시 시스템이 특징입니다."}
                  ]}
             ]
         }
@@ -365,8 +397,7 @@ def main():
     # MBTI 유형이 선택되었을 때만 추천을 표시합니다.
     if selected_mbti:
         st.write(f"---") # 구분선
-        st.subheader(f"✨ {selected_mbti} 유형을 위한 맞춤 여행 추천 🗺️")
-        # st.snow() # 눈송이 효과 제거
+        st.subheader(f"✨ {selected_mbti} 유형을 위한 맞춤 추천 🗺️")
 
         # 선택된 MBTI 유형에 대한 정보 가져오기
         mbti_info = mbti_travel_recommendations_full.get(selected_mbti, {})
@@ -377,17 +408,32 @@ def main():
             st.info(mbti_info["summary"])
             st.markdown("---")
 
-            # 추천 여행지 목록 표시
+            # 추천 여행지 목록 표시 (가로로 나열)
             st.markdown("### 추천 여행지와 그 이유 🌍")
-            for dest in mbti_info["destinations"]:
-                st.write(f"#### {dest['name']}") # 여행지 이름
-                st.write(f"**여행지 설명:** {dest['description']}") # 여행지 설명
-                st.success(f"**이 유형에 추천하는 이유:** {dest['relevance']}") # 여행지 관련성 (성공 박스로 표시)
-                # 리뷰 영상 검색 링크 추가
-                dest_search_query = dest['name'].replace(' ', '+').replace(',', '') # 여행지 이름 URL 인코딩
-                youtube_link = f"https://www.youtube.com/results?search_query={dest_search_query}+여행리뷰"
-                st.markdown(f"[🎥 **'{dest['name']}' 여행 리뷰 영상 찾아보기**]({youtube_link})")
-                st.markdown("---") # 각 여행지 사이에 구분선
+            
+            # 각 여행지를 2개의 컬럼으로 나누어 표시
+            cols = st.columns(2) # 2개의 컬럼 생성
+
+            for i, dest in enumerate(mbti_info["destinations"]):
+                with cols[i % 2]: # 현재 여행지를 해당 컬럼에 배치 (0, 1, 0, 1 순으로 반복)
+                    st.write(f"##### {dest['name']}") # 여행지 이름
+                    dest_search_query = dest['name'].replace(' ', '+').replace(',', '')
+                    youtube_link = f"https://www.youtube.com/results?search_query={dest_search_query}+여행브이로그"
+                    image_url = f"https://placehold.co/400x300/000000/FFFFFF?text={dest['name'].replace(' ', '+').replace(',', '')}"
+                    st.markdown(
+                        f"""
+                        <a href="{youtube_link}" target="_blank">
+                            <img src="{image_url}" alt="{dest['name']} 여행 사진" width="300px" style="border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2);">
+                        </a>
+                        """,
+                        unsafe_allow_html=True
+                    )
+                    st.markdown(f"**설명:** {dest['description']}") # 여행지 설명
+                    st.success(f"**이 유형에 추천하는 이유:** {dest['relevance']}") # 여행지 관련성
+                    
+                    # 리뷰 영상 검색 링크 추가 (텍스트 링크도 유지)
+                    st.markdown(f"[🎥 **'{dest['name']}' 리뷰 영상 찾아보기**]({youtube_link})")
+                    st.markdown("<hr style='border:1px solid #f0f2f6'>", unsafe_allow_html=True) # 가벼운 구분선
 
             # 함께 여행 보기에 좋은 MBTI 조합 추천
             if "good_combinations" in mbti_info and mbti_info["good_combinations"]:
@@ -398,11 +444,27 @@ def main():
                     st.write(f"**{combo['type']}**: {combo['reason']}")
                     if "combination_recommendations" in combo and combo["combination_recommendations"]:
                         st.markdown(f"**두 분께 추천하는 여행지:**")
-                        for combo_dest in combo["combination_recommendations"]:
-                            st.markdown(f"- **{combo_dest['name']}**: {combo_dest['description']}")
-                            combo_dest_search_query = combo_dest['name'].replace(' ', '+').replace(',', '')
-                            combo_youtube_link = f"https://www.youtube.com/results?search_query={combo_dest_search_query}+여행리뷰"
-                            st.markdown(f"  [🎥 **'{combo_dest['name']}' 여행 리뷰 영상 찾아보기**]({combo_youtube_link})")
+                        
+                        # 조합 추천 여행지도 2개의 컬럼으로 나누어 표시
+                        combo_destinations = combo["combination_recommendations"]
+                        combo_cols = st.columns(2) # 2개의 컬럼 생성
+                        for j, combo_dest in enumerate(combo_destinations):
+                            with combo_cols[j % 2]: # 현재 조합 여행지를 해당 컬럼에 배치
+                                st.write(f"###### {combo_dest['name']}")
+                                combo_dest_search_query = combo_dest['name'].replace(' ', '+').replace(',', '')
+                                combo_youtube_link = f"https://www.youtube.com/results?search_query={combo_dest_search_query}+여행브이로그"
+                                combo_image_url = f"https://placehold.co/300x200/000000/FFFFFF?text={combo_dest['name'].replace(' ', '+').replace(',', '')}"
+                                st.markdown(
+                                    f"""
+                                    <a href="{combo_youtube_link}" target="_blank">
+                                        <img src="{combo_image_url}" alt="{combo_dest['name']} 여행 사진" width="200px" style="border-radius: 8px; box-shadow: 2px 1px 4px rgba(0,0,0,0.1);">
+                                    </a>
+                                    """,
+                                    unsafe_allow_html=True
+                                )
+                                st.write(f"{combo_dest['description']}")
+                                st.markdown(f"[🎥 **'{combo_dest['name']}' 리뷰 영상 찾아보기**]({combo_youtube_link})")
+                                st.markdown("<hr style='border:0.5px solid #f0f2f6'>", unsafe_allow_html=True) # 더 가벼운 구분선
                     st.markdown("---") # 각 조합 사이에 구분선
             else:
                 st.info(f"{selected_mbti} 유형과 함께 여행하기 좋은 특정 MBTI 조합 정보가 아직 없습니다. 😅")
