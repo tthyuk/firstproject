@@ -213,7 +213,7 @@ def main():
             "video_url": "https://www.youtube.com/watch?v=H2G5Z0Q0000" # 뉴욕 브이로그
         },
         "싱가포르": {
-            "name": "싱가포르 🇸🇬",
+            "name": "싱가포르 �🇬",
             "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시입니다. 계획대로 움직이기에 최적의 장소입니다.",
             "relevance": "ESTJ는 효율성과 질서를 중요하게 생각하며, 잘 정돈된 환경에서 편안함을 느낍니다. 싱가포르는 그들의 계획적인 여행 스타일을 만족시키고, 안전하고 예측 가능한 환경에서 효율적으로 관광할 수 있도록 돕습니다.",
             "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -409,18 +409,17 @@ def main():
             st.markdown("---")
 
             # 추천 여행지 목록 표시
-            st.markdown("### 추천 여행지와 그 이유 �")
+            st.markdown("### 추천 여행지와 그 이유 🌍")
             
-            # 각 여행지를 표시 (이제 하나씩만 나오므로 컬럼 나눌 필요 없음)
+            # 각 여행지를 표시 (하나만 추천하므로 컬럼 나눌 필요 없음)
             for dest_key in mbti_info["destinations"]:
                 dest = all_destinations[dest_key] # all_destinations에서 실제 여행지 정보 가져오기
                 st.write(f"##### {dest['name']}") # 여행지 이름
                 
-                # 이미지 표시 (링크 없이)
+                # 이미지 표시 (링크 없이, use_container_width 사용)
                 st.image(dest['image_url'], 
                          caption=f"{dest['name']} 여행 사진", 
-                         width=300, 
-                         use_column_width=False)
+                         use_container_width=True) # use_column_width 대신 use_container_width 사용
                 
                 st.markdown(f"**설명:** {dest['description']}") # 여행지 설명
                 st.success(f"**이 유형에 추천하는 이유:** {dest['relevance']}") # 여행지 관련성
@@ -444,11 +443,11 @@ def main():
                             combo_dest = all_destinations[combo_dest_key] # all_destinations에서 실제 여행지 정보 가져오기
                             st.write(f"###### {combo_dest['name']}")
                             
-                            # 이미지 표시 (링크 없이)
+                            # 이미지 표시 (링크 없이, use_container_width 사용)
                             st.image(combo_dest['image_url'], 
                                      caption=f"{combo_dest['name']} 여행 사진", 
-                                     width=200, 
-                                     use_column_width=False)
+                                     width=200, # 여기는 작은 사이즈 유지를 위해 width 유지
+                                     use_container_width=False) # 여기는 width 고정을 위해 False 유지
                             
                             st.write(f"{combo_dest['description']}")
                             st.markdown(f"[🎥 **'{combo_dest['name']}' 브이로그/리뷰 영상 보기**]({combo_dest['video_url']})")
