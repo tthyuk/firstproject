@@ -46,7 +46,7 @@ def main():
             {"title": "Good Will Hunting (1997) ✨", "description": "천재적인 재능을 가졌지만 방황하는 청년이 수학과 심리학을 통해 성장하는 영화. 이상주의적인 INFP에게 공감과 위로를 줄 수 있습니다."}
         ],
         "INTP": [
-            {"title": "Primer (2004) 🧪", "description": "저예산으로 만든 복잡한 시간 여행 영화. 분석적이고 논리적인 사고를 가진 INTP의 탐구심을 자극합니다."},
+            {"title": "Primer (2004) �", "description": "저예산으로 만든 복잡한 시간 여행 영화. 분석적이고 논리적인 사고를 가진 INTP의 탐구심을 자극합니다."},
             {"title": "Interstellar (2014) 🌌", "description": "우주와 시간의 신비를 탐구하는 SF 대작. 이론적이고 탐구적인 INTP에게 끝없는 질문을 던집니다."}
         ],
         "ESTP": [
@@ -83,32 +83,36 @@ def main():
         ]
     }
 
-    # 사용자로부터 MBTI 유형을 입력받는 드롭다운 메뉴를 생성합니다.
-    selected_mbti = st.selectbox(
-        "당신의 MBTI 유형을 선택해주세요! 🎈", # 드롭다운 메뉴의 레이블
-        [""] + mbti_types, # 빈 문자열을 추가하여 초기 선택 없음을 나타냅니다.
-        index=0, # 초기 선택 인덱스
-        help="나에게 딱 맞는 영화를 추천해 드릴게요! ✨" # 사용자에게 도움말을 제공합니다.
-    )
+    # 사용자로부터 MBTI 유형을 직접 입력받는 텍스트 입력란을 생성합니다.
+    selected_mbti = st.text_input(
+        "당신의 MBTI 유형을 입력해주세요! (예: INTP) 🎈", # 텍스트 입력란의 레이블
+        placeholder="예: INTP", # 입력 가이드
+        help="정확한 MBTI 4글자를 입력해주세요! ✨" # 사용자에게 도움말을 제공합니다.
+    ).upper() # 입력값을 대문자로 변환하여 일관성을 유지합니다.
 
-    # MBTI 유형이 선택되었을 때만 추천을 표시합니다.
+    # MBTI 유형이 입력되었을 때만 추천을 표시하고 유효성을 검사합니다.
     if selected_mbti:
-        st.write(f"---") # 구분선
-        st.subheader(f"✨ {selected_mbti} 유형을 위한 추천 영화 🍿")
-        st.balloons() # 사용자가 선택하면 풍선 효과를 띄웁니다! 🥳
+        # 입력된 MBTI 유형이 유효한 목록에 있는지 확인합니다.
+        if selected_mbti in mbti_types:
+            st.write(f"---") # 구분선
+            st.subheader(f"✨ {selected_mbti} 유형을 위한 추천 영화 🍿")
+            st.balloons() # 사용자가 선택하면 풍선 효과를 띄웁니다! 🥳
 
-        # 선택된 MBTI 유형에 해당하는 영화 목록을 가져옵니다.
-        recommendations = movie_recommendations.get(selected_mbti, [])
+            # 선택된 MBTI 유형에 해당하는 영화 목록을 가져옵니다.
+            recommendations = movie_recommendations.get(selected_mbti, [])
 
-        # 추천 영화가 있을 경우 각 영화의 제목과 설명을 표시합니다.
-        if recommendations:
-            for movie in recommendations:
-                st.write(f"### {movie['title']}") # 영화 제목
-                st.info(movie['description']) # 영화 설명 (정보 박스로 표시)
-                st.markdown("---") # 각 영화 사이에 구분선
+            # 추천 영화가 있을 경우 각 영화의 제목과 설명을 표시합니다.
+            if recommendations:
+                for movie in recommendations:
+                    st.write(f"### {movie['title']}") # 영화 제목
+                    st.info(movie['description']) # 영화 설명 (정보 박스로 표시)
+                    st.markdown("---") # 각 영화 사이에 구분선
+            else:
+                # 추천 영화가 없을 경우 경고 메시지를 표시합니다.
+                st.warning("선택하신 MBTI 유형에 대한 추천 영화가 아직 없습니다. 다른 유형을 입력해주세요! 😅")
         else:
-            # 추천 영화가 없을 경우 경고 메시지를 표시합니다.
-            st.warning("선택하신 MBTI 유형에 대한 추천 영화가 아직 없습니다. 다른 유형을 선택해주세요! 😅")
+            # 유효하지 않은 MBTI 유형이 입력되었을 경우 경고 메시지를 표시합니다.
+            st.error("🚨 유효하지 않은 MBTI 유형입니다. 정확한 4글자 MBTI 유형을 입력해주세요! (예: INTP)")
 
     # 앱의 하단에 작은 메시지를 추가합니다.
     st.markdown("Made with ❤️ and Streamlit")
@@ -116,3 +120,4 @@ def main():
 # Streamlit 앱을 실행하는 부분입니다.
 if __name__ == "__main__":
     main()
+�
