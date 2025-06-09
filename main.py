@@ -25,18 +25,20 @@ def main():
                 {"title": "Apollo 13 (1995) 🚀",
                  "description": "실제 사건을 바탕으로, 우주에서 발생한 위기를 해결하는 과정을 보여주는 영화입니다.",
                  "relevance": "ISTJ는 위기 상황에서 침착하게 사실을 분석하고, 현실적이고 실용적인 해결책을 찾는 데 탁월합니다. 아폴로 13호 팀이 제한된 자원과 시간 속에서 체계적인 절차와 냉철한 판단으로 위기를 극복하는 과정은 ISTJ의 책임감과 실행 능력을 극대화하여 보여줍니다. 계획을 중시하고 세부사항을 꼼꼼히 살피는 ISTJ에게 특히 인상 깊을 영화입니다."},
-                {"title": "The Martian (2015) 🥔",
+                {"title": "The Martian (2015) �",
                  "description": "화성에 홀로 남겨진 우주인이 과학적 지식과 실용적인 기술로 생존하는 이야기입니다.",
                  "relevance": "ISTJ는 실제적인 문제 해결에 탁월하며, 주어진 자원 내에서 효율적인 방안을 모색하는 데 능합니다. 마크 와트니가 제한된 환경 속에서 논리적이고 실용적인 해결책을 찾아 생존하는 과정은 ISTJ의 현실적이고 끈기 있는 특성과 일치하여 큰 공감을 얻을 것입니다."}
             ],
             "good_combinations": [
                 {"type": "ENFP", "reason": "ENFP의 통찰력과 상상력이 ISTJ의 현실적인 관점에 새로운 시야를 제공하여, 영화에 대한 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Social Dilemma (2020) 📱", "description": "소셜 미디어의 어두운 면과 기술이 사회에 미치는 영향을 다룬 다큐멘터리."}
+                     {"title": "The Social Dilemma (2020) 📱", "description": "소셜 미디어의 어두운 면과 기술이 사회에 미치는 영향을 다룬 다큐멘터리."},
+                     {"title": "Arrival (2016) 👽", "description": "외계 언어를 통해 인류의 운명을 바꾸는 과정을 그린 SF 영화."}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 현실 지향적이고 체계적인 사고를 가진 유형으로, 효율적이고 빈틈없는 여행 계획을 함께 세우는 데 최적입니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Contagion (2011) 🦠", "description": "치명적인 전염병의 확산과 이를 막기 위한 전 세계적인 노력을 그린 영화."}
+                     {"title": "Contagion (2011) 🦠", "description": "치명적인 전염병의 확산과 이를 막기 위한 전 세계적인 노력을 그린 영화."},
+                     {"title": "Deepwater Horizon (2016) 🛢️", "description": "멕시코만 원유 시추선 폭발 사고를 다룬 영화로, 재난 상황에서의 시스템과 대응을 보여줍니다."}
                  ]}
             ]
         },
@@ -56,11 +58,13 @@ def main():
             "good_combinations": [
                 {"type": "ESFP", "reason": "ESFP의 밝고 긍정적인 에너지가 ISFJ에게 편안함을 주고, 영화 감상을 더욱 즐겁게 만들어줍니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Blind Side (2009) 🏈", "description": "역경을 딛고 꿈을 이루는 한 소년과 그를 지원하는 가족의 감동 실화."}
+                     {"title": "The Blind Side (2009) 🏈", "description": "역경을 딛고 꿈을 이루는 한 소년과 그를 지원하는 가족의 감동 실화."},
+                     {"title": "School of Rock (2003) 🎸", "description": "음악을 통해 아이들의 잠재력을 끌어내는 유쾌한 코미디 영화."}
                  ]},
                 {"type": "ISTJ", "reason": "비슷한 현실 지향적이고 안정적인 성향으로 영화에 대한 깊은 공감대를 형성할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Sully (2016) ✈️", "description": "허드슨 강의 기적을 이룬 비행기 기장의 실화."}
+                     {"title": "Sully (2016) ✈️", "description": "허드슨 강의 기적을 이룬 비행기 기장의 실화."},
+                     {"title": "Bridge of Spies (2015) ⚖️", "description": "냉전 시대, 스파이 교환 협상을 다룬 스릴러 영화로, 원칙과 협상을 중시합니다."}
                  ]}
             ]
         },
@@ -80,18 +84,20 @@ def main():
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFJ와 ENFP는 감성적 유대감을 형성하며 영화의 깊은 의미를 함께 탐구하고 감정을 공유합니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Eternal Sunshine of the Spotless Mind (2004) 💔", "description": "기억과 사랑, 관계의 본질을 탐구하는 독특한 SF 로맨스."}
+                     {"title": "Eternal Sunshine of the Spotless Mind (2004) 💔", "description": "기억과 사랑, 관계의 본질을 탐구하는 독특한 SF 로맨스."},
+                     {"title": "Into the Wild (2007) 🏕️", "description": "사회 시스템을 거부하고 알래스카 야생으로 떠난 청년의 실화를 그린 영화."}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 논리적인 분석과 INFJ의 통찰력이 만나 영화에 대한 풍부하고 다각적인 대화를 이끌어낼 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Inception (2010) 💭", "description": "꿈속으로 들어가 생각을 훔치거나 심는 복잡한 개념의 SF 스릴러."}
+                     {"title": "Inception (2010) 💭", "description": "꿈속으로 들어가 생각을 훔치거나 심는 복잡한 개념의 SF 스릴러."},
+                     {"title": "Mr. Nobody (2009) ❓", "description": "한 남자의 삶이 여러 가지 선택에 따라 어떻게 변하는지 보여주는 철학적인 SF 영화."}
                  ]}
             ]
         },
         "INTJ": {
             "summary": "전략적이고 분석적이며, 독립적이고 비판적인 사고를 가진 유형입니다. 복잡한 문제를 해결하는 데 능숙하며, 미래를 계획하고 비전을 제시하는 것을 좋아합니다. 효율성과 합리성을 중시하며, 지적인 도전을 즐깁니다.",
             "movies": [
-                {"title": "The Imitation Game (2014) �",
+                {"title": "The Imitation Game (2014) 💻",
                  "description": "암호 해독가 앨런 튜링의 삶과 그의 천재성을 그린 영화입니다.",
                  "relevance": "INTJ는 복잡한 시스템을 분석하고 효율적인 전략을 세우는 데 뛰어납니다. 앨런 튜링이 남들과 다른 방식으로 문제를 접근하고, 비판적 사고를 통해 난제를 해결하는 모습은 INTJ의 독립적이고 혁신적인 사고방식을 잘 보여줍니다. 지적인 도전과 논리적 추론을 즐기는 INTJ에게 최고의 선택입니다."},
                 {"title": "Oppenheimer (2023) 💣",
@@ -104,11 +110,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "INTJ와 INTP는 모두 논리적이고 분석적인 사고를 선호하여 영화의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러."}
+                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러."},
+                     {"title": "Cube (1997) 🟥", "description": "탈출해야 하는 미로 속에서 수학적 지식으로 문제를 해결하는 SF 스릴러."}
                  ]},
                 {"type": "ENFP", "reason": "ENFP의 창의적이고 감성적인 관점이 INTJ의 논리적 사고에 새로운 영감을 주어 영화를 더 다채롭게 이해할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Gattaca (1997) 🧬", "description": "유전자 조작이 보편화된 미래 사회에서 자연적으로 태어난 한 남자가 우주 비행의 꿈을 이루기 위해 노력하는 이야기."}
+                     {"title": "Gattaca (1997) 🧬", "description": "유전자 조작이 보편화된 미래 사회에서 자연적으로 태어난 한 남자가 우주 비행의 꿈을 이루기 위해 노력하는 이야기."},
+                     {"title": "Big Hero 6 (2014) 🤖", "description": "천재 로봇 공학 소년과 로봇 베이맥스의 따뜻한 우정을 그린 애니메이션 영화."}
                  ]}
             ]
         },
@@ -128,11 +136,13 @@ def main():
             "good_combinations": [
                 {"type": "ESFP", "reason": "ISTP의 논리적이고 실용적인 면모와 ESFP의 활동적이고 즉흥적인 면모가 결합하여 영화에 대한 흥미로운 관점과 즉각적인 반응을 공유할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Jumanji: Welcome to the Jungle (2017) 🌴", "description": "비디오 게임 속으로 빨려 들어간 주인공들이 각자의 특수 능력을 활용해 미션을 해결하는 어드벤처 코미디."}
+                     {"title": "Jumanji: Welcome to the Jungle (2017) 🌴", "description": "비디오 게임 속으로 빨려 들어간 주인공들이 각자의 특수 능력을 활용해 미션을 해결하는 어드벤처 코미디."},
+                     {"title": "Baby Driver (2017) 🚗", "description": "음악에 맞춰 짜릿한 드라이빙을 선보이는 천재 운전자의 이야기."}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 창의적인 아이디어와 ISTP의 문제 해결 능력이 시너지를 내어 영화의 복잡한 설정이나 과학적 원리에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Now You See Me (2013) 🎩", "description": "천재 마술사들이 펼치는 화려한 마술과 그 안에 숨겨진 치밀한 계획을 다룬 범죄 스릴러."}
+                     {"title": "Now You See Me (2013) 🎩", "description": "천재 마술사들이 펼치는 화려한 마술과 그 안에 숨겨진 치밀한 계획을 다룬 범죄 스릴러."},
+                     {"title": "Sherlock Holmes (2009) 🕵️‍♂️", "description": "천재 탐정 셜록 홈즈와 왓슨 박사의 활약을 그린 추리 액션 영화."}
                  ]}
             ]
         },
@@ -152,11 +162,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFJ", "reason": "ENFJ의 따뜻하고 지지적인 성향이 ISFP의 감수성과 어우러져 영화 속 인물들의 감정을 깊이 있게 공감하며 대화할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Dead Poets Society (1989) 📚", "description": "전통적인 학교에 부임한 자유로운 영혼의 영문학 선생님이 학생들에게 삶의 새로운 의미를 가르치는 이야기."}
+                     {"title": "Dead Poets Society (1989) 📚", "description": "전통적인 학교에 부임한 자유로운 영혼의 영문학 선생님이 학생들에게 삶의 새로운 의미를 가르치는 이야기."},
+                     {"title": "Patch Adams (1998) 🤡", "description": "환자들에게 웃음을 통해 치유를 선사하는 의사의 감동적인 실화."}
                  ]},
                 {"type": "INFP", "reason": "ISFP와 INFP는 비슷한 감성적 깊이를 가지고 있어 영화가 전달하는 메시지나 감동을 함께 느끼고 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Big Fish (2003) 🐠", "description": "과장된 이야기 속에서 아버지의 진정한 삶의 의미를 찾아가는 아들의 여정을 그린 환상적인 영화."}
+                     {"title": "Big Fish (2003) 🐠", "description": "과장된 이야기 속에서 아버지의 진정한 삶의 의미를 찾아가는 아들의 여정을 그린 환상적인 영화."},
+                     {"title": "Edward Scissorhands (1990) ✂️", "description": "가위손을 가진 순수한 영혼의 남자가 마을 사람들과 교류하며 겪는 이야기."}
                  ]}
             ]
         },
@@ -176,11 +188,13 @@ def main():
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFP와 ENFP는 모두 이상주의적이고 감수성이 풍부하여 영화의 숨겨진 의미나 감성적인 부분에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "About Time (2013) ⏳", "description": "시간 여행 능력을 가진 남자가 사랑과 삶의 의미를 찾아가는 과정을 그린 로맨스 판타지."}
+                     {"title": "About Time (2013) ⏳", "description": "시간 여행 능력을 가진 남자가 사랑과 삶의 의미를 찾아가는 과정을 그린 로맨스 판타지."},
+                     {"title": "Sing Street (2016) 🎶", "description": "음악을 통해 꿈을 찾아가는 청년들의 유쾌하고 감동적인 성장 영화."}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 INFP의 이상주의가 만나 영화의 철학적 메시지에 대해 심도 깊은 논의를 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Life of Pi (2012) 🐅", "description": "난파선에서 홀로 남은 소년과 호랑이의 생존기를 다룬 철학적인 모험 영화."}
+                     {"title": "Life of Pi (2012) 🐅", "description": "난파선에서 홀로 남은 소년과 호랑이의 생존기를 다룬 철학적인 모험 영화."},
+                     {"title": "Blade Runner 2049 (2017) 🌃", "description": "인간의 정체성과 존재 의미를 탐구하는 SF 느와르 영화."}
                  ]}
             ]
         },
@@ -200,11 +214,13 @@ def main():
             "good_combinations": [
                 {"type": "INTJ", "reason": "INTP와 INTJ는 모두 논리적이고 분석적인 사고를 선호하여 영화의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러."}
+                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러."},
+                     {"title": "Arrival (2016) 👽", "description": "외계 언어를 통해 인류의 운명을 바꾸는 과정을 그린 SF 영화."}
                  ]},
                 {"type": "ENTP", "reason": "비슷한 지적 호기심과 논리적 탐구심을 공유하여 영화의 복잡한 주제에 대해 흥미로운 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."}
+                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."},
+                     {"title": "Mr. Nobody (2009) ❓", "description": "한 남자의 삶이 여러 가지 선택에 따라 어떻게 변하는지 보여주는 철학적인 SF 영화."}
                  ]}
             ]
         },
@@ -224,11 +240,13 @@ def main():
             "good_combinations": [
                 {"type": "ESFP", "reason": "ESTP의 현실적인 관점과 ESFP의 예술적인 감각이 만나 영화를 다양한 시각에서 즐길 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Jumanji: Welcome to the Jungle (2017) 🌴", "description": "비디오 게임 속으로 빨려 들어간 주인공들이 각자의 특수 능력을 활용해 미션을 해결하는 어드벤처 코미디."}
+                     {"title": "Jumanji: Welcome to the Jungle (2017) 🌴", "description": "비디오 게임 속으로 빨려 들어간 주인공들이 각자의 특수 능력을 활용해 미션을 해결하는 어드벤처 코미디."},
+                     {"title": "The Greatest Showman (2017) 🎩", "description": "환상적인 쇼를 만들어가는 P.T. 바넘의 이야기를 그린 뮤지컬 영화."}
                  ]},
                 {"type": "ENTJ", "reason": "ENTJ의 전략적인 사고와 ESTP의 실행력이 결합하여 영화의 주제나 전개에 대해 활발하고 생산적인 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."}
+                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."},
+                     {"title": "Margin Call (2011) 📉", "description": "글로벌 금융 위기 직전, 거대 투자은행에서 벌어지는 24시간을 그린 스릴러 영화."}
                  ]}
             ]
         },
@@ -248,11 +266,13 @@ def main():
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFP의 밝은 에너지와 ISFJ의 차분하고 배려심 깊은 성향이 어우러져 편안하고 즐거운 영화 감상 분위기를 만듭니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Blind Side (2009) 🏈", "description": "역경을 딛고 꿈을 이루는 한 소년과 그를 지원하는 가족의 감동 실화."}
+                     {"title": "The Blind Side (2009) 🏈", "description": "역경을 딛고 꿈을 이루는 한 소년과 그를 지원하는 가족의 감동 실화."},
+                     {"title": "School of Rock (2003) 🎸", "description": "음악을 통해 아이들의 잠재력을 끌어내는 유쾌한 코미디 영화."}
                  ]},
                 {"type": "ENFP", "reason": "ESFP와 ENFP는 비슷한 낙천적이고 사교적인 성향으로 영화에 대한 활발한 감정 공유와 재미있는 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "About Time (2013) ⏳", "description": "시간 여행 능력을 가진 남자가 사랑과 삶의 의미를 찾아가는 과정을 그린 로맨스 판타지."}
+                     {"title": "About Time (2013) ⏳", "description": "시간 여행 능력을 가진 남자가 사랑과 삶의 의미를 찾아가는 과정을 그린 로맨스 판타지."},
+                     {"title": "Midnight in Paris (2011) 🎨", "description": "파리의 과거로 시간 여행을 떠나는 작가의 이야기로, 예술과 낭만을 즐길 수 있습니다."}
                  ]}
             ]
         },
@@ -272,11 +292,13 @@ def main():
             "good_combinations": [
                 {"type": "INFJ", "reason": "ENFP의 열정적인 아이디어와 INFJ의 통찰력이 만나 영화의 깊은 의미와 숨겨진 메시지에 대해 풍부한 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Eternal Sunshine of the Spotless Mind (2004) 💔", "description": "기억과 사랑, 관계의 본질을 탐구하는 독특한 SF 로맨스."}
+                     {"title": "Eternal Sunshine of the Spotless Mind (2004) 💔", "description": "기억과 사랑, 관계의 본질을 탐구하는 독특한 SF 로맨스."},
+                     {"title": "Inside Out (2015) 😊", "description": "인간의 감정을 의인화하여 보여주는 애니메이션 영화로, 복잡한 내면 세계를 탐구합니다."}
                  ]},
                 {"type": "INTJ", "reason": "INTJ의 논리적이고 분석적인 관점에 ENFP의 창의적인 사고가 더해져 영화를 다각도로 해석하고 새로운 관점을 공유할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Gattaca (1997) 🧬", "description": "유전자 조작이 보편화된 미래 사회에서 자연적으로 태어난 한 남자가 우주 비행의 꿈을 이루기 위해 노력하는 이야기."}
+                     {"title": "Gattaca (1997) 🧬", "description": "유전자 조작이 보편화된 미래 사회에서 자연적으로 태어난 한 남자가 우주 비행의 꿈을 이루기 위해 노력하는 이야기."},
+                     {"title": "Big Hero 6 (2014) 🤖", "description": "천재 로봇 공학 소년과 로봇 베이맥스의 따뜻한 우정을 그린 애니메이션 영화."}
                  ]}
             ]
         },
@@ -296,11 +318,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTP와 INTP는 모두 지적인 호기심과 논리적 탐구심이 강하여 영화의 복잡한 주제나 과학적 원리에 대해 심도 깊은 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."}
+                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."},
+                     {"title": "Steve Jobs (2015) 🍎", "description": "스티브 잡스의 세 가지 주요 프레젠테이션 뒤편의 이야기를 다룬 전기 영화."}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 ENTP의 논리적 분석이 만나 영화의 숨겨진 의미와 철학적 메시지에 대해 풍부하고 깊이 있는 논의를 이끌어낼 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Inception (2010) 💭", "description": "꿈속으로 들어가 생각을 훔치거나 심는 복잡한 개념의 SF 스릴러."}
+                     {"title": "Inception (2010) 💭", "description": "꿈속으로 들어가 생각을 훔치거나 심는 복잡한 개념의 SF 스릴러."},
+                     {"title": "Her (2013) 💖", "description": "인공지능 운영체제와 사랑에 빠지는 남자의 이야기를 그린 로맨스 드라마."}
                  ]}
             ]
         },
@@ -320,11 +344,13 @@ def main():
             "good_combinations": [
                 {"type": "ISTJ", "reason": "ESTJ와 ISTJ는 모두 현실적이고 체계적인 사고를 선호하여 영화의 사실적 배경이나 논리적 전개에 대해 깊은 공감대를 형성하며 감상할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Contagion (2011) 🦠", "description": "치명적인 전염병의 확산과 이를 막기 위한 전 세계적인 노력, 그리고 사회 시스템의 반응을 현실적으로 그린 영화."}
+                     {"title": "Contagion (2011) 🦠", "description": "치명적인 전염병의 확산과 이를 막기 위한 전 세계적인 노력, 그리고 사회 시스템의 반응을 현실적으로 그린 영화."},
+                     {"title": "Sully (2016) ✈️", "description": "허드슨 강의 기적을 이룬 비행기 기장의 실화."}
                  ]},
                 {"type": "ENTJ", "reason": "ENTJ와 ESTJ는 강력한 리더십과 목표 지향적인 성향을 공유하여 영화 속 전략이나 효율성에 대해 활발한 논의를 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."}
+                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."},
+                     {"title": "Margin Call (2011) 📉", "description": "글로벌 금융 위기 직전, 거대 투자은행에서 벌어지는 24시간을 그린 스릴러 영화."}
                  ]}
             ]
         },
@@ -344,11 +370,13 @@ def main():
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFJ와 ISFJ는 모두 사람들과의 조화를 중요하게 생각하고 따뜻한 마음을 가지고 있어, 영화 속 감동적인 스토리에 깊이 공감하며 함께 즐거운 시간을 보낼 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Green Book (2018) 🚗", "description": "1960년대 미국 남부를 배경으로 한 흑인 피아니스트와 이탈리아계 운전사의 특별한 우정을 그린 영화."}
+                     {"title": "Green Book (2018) 🚗", "description": "1960년대 미국 남부를 배경으로 한 흑인 피아니스트와 이탈리아계 운전사의 특별한 우정을 그린 영화."},
+                     {"title": "The Help (2011) 🏡", "description": "1960년대 미국 남부 흑인 가정부들의 이야기를 다룬 영화로, 사회적 약자의 목소리를 담았습니다."}
                  ]},
                 {"type": "ENFJ", "reason": "ENFJ의 리더십과 ESFJ의 협력적인 태도가 만나 영화에 대한 감상평을 활발하게 나누고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Remember the Titans (2000) 🏈", "description": "인종 차별이 심했던 시기에 통합 미식축구팀을 이끌며 역경을 극복하는 감동 실화."}
+                     {"title": "Remember the Titans (2000) 🏈", "description": "인종 차별이 심했던 시기에 통합 미식축구팀을 이끌며 역경을 극복하는 감동 실화."},
+                     {"title": "Pay It Forward (2000) ❤️", "description": "도움을 받은 사람이 다른 세 명에게 도움을 베푸는 '세상을 바꾸는 아이디어'를 그린 영화."}
                  ]}
             ]
         },
@@ -368,11 +396,13 @@ def main():
             "good_combinations": [
                 {"type": "INFP", "reason": "ENFJ의 따뜻하고 지지적인 성향과 INFP의 감성적인 깊이가 만나 영화에 대한 감정을 풍부하게 공유하고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Life of Pi (2012) 🐅", "description": "난파선에서 홀로 남은 소년과 호랑이의 생존기를 다룬 철학적인 모험 영화."}
+                     {"title": "Life of Pi (2012) 🐅", "description": "난파선에서 홀로 남은 소년과 호랑이의 생존기를 다룬 철학적인 모험 영화."},
+                     {"title": "Inside Out (2015) 😊", "description": "인간의 감정을 의인화하여 보여주는 애니메이션 영화로, 복잡한 내면 세계를 탐구합니다."}
                  ]},
                 {"type": "ESFJ", "reason": "비슷하게 사교적이고 협력적인 성향으로 영화 감상 후 활발한 대화를 나누며 즐거움을 배가시킬 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Remember the Titans (2000) 🏈", "description": "인종 차별이 심했던 시기에 통합 미식축구팀을 이끌며 역경을 극복하는 감동 실화."}
+                     {"title": "Remember the Titans (2000) 🏈", "description": "인종 차별이 심했던 시기에 통합 미식축구팀을 이끌며 역경을 극복하는 감동 실화."},
+                     {"title": "The Help (2011) 🏡", "description": "1960년대 미국 남부 흑인 가정부들의 이야기를 다룬 영화로, 사회적 약자의 목소리를 담았습니다."}
                  ]}
             ]
         },
@@ -392,11 +422,13 @@ def main():
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTJ의 리더십과 INTP의 깊은 분석력이 결합하여 영화의 복잡한 주제나 숨겨진 의미에 대해 심도 있는 토론을 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."}
+                     {"title": "The Social Network (2010) 💻", "description": "페이스북의 탄생과정과 그 이면에 숨겨진 창립자들의 갈등을 다룬 영화."},
+                     {"title": "Steve Jobs (2015) 🍎", "description": "스티브 잡스의 세 가지 주요 프레젠테이션 뒤편의 이야기를 다룬 전기 영화."}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 목표 지향적이고 효율성을 중시하는 성향으로 영화의 전개나 전략적 요소에 대해 깊이 공감하며 활발한 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."}
+                     {"title": "The Big Short (2015) 💰", "description": "2008년 금융 위기를 예측하고 월스트리트에 맞서 성공을 거둔 사람들의 이야기."},
+                     {"title": "Margin Call (2011) 📉", "description": "글로벌 금융 위기 직전, 거대 투자은행에서 벌어지는 24시간을 그린 스릴러 영화."}
                  ]}
             ]
         }
@@ -434,8 +466,9 @@ def main():
             for i, movie in enumerate(mbti_info["movies"]):
                 with cols[i % 2]: # 현재 영화를 해당 컬럼에 배치 (0, 1, 0, 1 순으로 반복)
                     st.write(f"##### {movie['title']}") # 영화 제목
-                    st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={movie['title'].split('(')[0].strip().replace(' ', '+')}",
-                             caption=f"{movie['title'].split('(')[0].strip()} 포스터",
+                    # Placehold.co를 사용하여 플레이스홀더 이미지 생성
+                    st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={movie['title'].split('(')[0].strip().replace(' ', '+')}%0APoster",
+                             caption=f"{movie['title'].split('(')[0].strip()} 영화 포스터", # 포스터 이미지 설명
                              width=150) # 이미지 너비 조정
                     st.markdown(f"**설명:** {movie['description']}") # 영화 설명
                     st.success(f"**이 유형에 추천하는 이유:** {movie['relevance']}") # 영화 관련성
@@ -462,8 +495,9 @@ def main():
                         for j, combo_movie in enumerate(combo_movies):
                             with combo_cols[j % 2]: # 현재 조합 영화를 해당 컬럼에 배치
                                 st.write(f"###### {combo_movie['title']}")
-                                st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={combo_movie['title'].split('(')[0].strip().replace(' ', '+')}",
-                                         caption=f"{combo_movie['title'].split('(')[0].strip()} 포스터",
+                                # Placehold.co를 사용하여 플레이스홀더 이미지 생성
+                                st.image(f"https://placehold.co/300x450/000000/FFFFFF?text={combo_movie['title'].split('(')[0].strip().replace(' ', '+')}%0APoster",
+                                         caption=f"{combo_movie['title'].split('(')[0].strip()} 영화 포스터",
                                          width=100) # 이미지 너비 조정
                                 st.write(f"{combo_movie['description']}")
                                 combo_movie_search_query = combo_movie['title'].split('(')[0].strip().replace(' ', '+')
