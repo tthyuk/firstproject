@@ -22,32 +22,21 @@ def main():
                 {"name": "로마, 이탈리아 🏛️",
                  "description": "고대 로마 유적지와 박물관이 풍부하여 역사적 사실과 정보를 체계적으로 탐험하기 좋습니다. 잘 짜여진 가이드 투어와 편리한 대중교통으로 효율적인 여행이 가능합니다.",
                  "relevance": "ISTJ는 역사적 의미와 체계적인 지식 습득을 중요시합니다. 로마는 방대한 역사와 건축물을 통해 그들의 지적 호기심을 충족시키고, 효율적인 여행 계획에 따라 움직이는 것을 선호하는 ISTJ에게 만족감을 줄 것입니다.",
-                 "image_url": "https://img.traveltimes.co.kr/news/articleView.html?idxno=119864", # 로마 콜로세움
-                 "video_url": "https://www.youtube.com/watch?v=F0p7Lp_a5wQ"}, # 로마 브이로그 예시
-                {"name": "도쿄, 일본 🇯🇵",
-                 "description": "정확한 교통 시스템과 깔끔한 도시 환경, 그리고 풍부한 박물관과 전통 문화 시설이 있습니다. 계획대로 움직이기 좋은 도시입니다.",
-                 "relevance": "ISTJ는 규칙과 질서를 중요하게 생각하며, 잘 정돈된 환경에서 편안함을 느낍니다. 도쿄의 효율적인 시스템과 신뢰할 수 있는 서비스는 ISTJ의 실용적이고 안정적인 여행 선호를 충족시킬 것입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509140-tokyo_l.jpg", # 도쿄타워
-                 "video_url": "https://www.youtube.com/watch?v=0k1Ld2S2XmE"} # 도쿄 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1552832230-c0197cebb15b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 로마 콜로세움
+                 "video_url": "https://www.youtube.com/watch?v=F0p7Lp_a5wQ"} # 로마 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ENFP", "reason": "ENFP의 즉흥적인 매력과 새로운 시도가 ISTJ의 계획적인 여행에 활력을 불어넣어 예측치 못한 즐거움을 발견하게 할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "스페인 바르셀로나 🇪🇸", "description": "가우디 건축물과 활기찬 시장, 밤문화가 어우러진 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509166-barcelona_l.jpg", # 바르셀로나 사그라다 파밀리아
-                      "video_url": "https://www.youtube.com/watch?v=t5A5iF3vT3s"},
-                     {"name": "쿠바 아바나 🇨🇺", "description": "시간이 멈춘 듯한 올드카와 다채로운 색감의 건축물, 그리고 활기찬 음악이 넘치는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509170-havana_l.jpg", # 아바나 올드카
-                      "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}
+                      "image_url": "https://images.unsplash.com/photo-1539037116277-fd91d0c92985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 바르셀로나 사그라다 파밀리아
+                      "video_url": "https://www.youtube.com/watch?v=t5A5iF3vT3s"}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 현실 지향적이고 체계적인 사고를 가진 유형으로, 효율적이고 빈틈없는 여행 계획을 함께 세우는 데 최적입니다.",
                  "combination_recommendations": [
                      {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린 브란덴부르크 문
-                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"},
-                     {"name": "스위스 제네바 🇨🇭", "description": "CERN 등 과학 연구 기관이 있는 지적인 도시로, 효율적인 시스템을 자랑합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509169-geneva_l.jpg", # 제네바 분수
-                      "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"}
+                      "image_url": "https://images.unsplash.com/photo-1528164344705-477894340d85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 베를린 브란덴부르크 문
+                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"}
                  ]}
             ]
         },
@@ -57,32 +46,21 @@ def main():
                 {"name": "하와이, 미국 🌺",
                  "description": "아름다운 자연 속에서 휴식을 취하고, 가족이나 연인과 편안하게 시간을 보낼 수 있는 리조트 여행에 적합합니다. 안전하고 친근한 분위기를 자랑합니다.",
                  "relevance": "ISFJ는 사랑하는 사람들과의 편안하고 조화로운 경험을 중요하게 생각합니다. 하와이의 평화로운 분위기와 잘 갖춰진 숙박 시설은 ISFJ가 심리적으로 안정감을 느끼고, 타인을 돌보며 휴식하는 데 집중할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509163-hawaii_l.jpg", # 하와이 해변
-                 "video_url": "https://www.youtube.com/watch?v=Y-jD1_vJbQk"}, # 하와이 브이로그 예시
-                {"name": "스위스 시골 마을 🏞️",
-                 "description": "아름다운 자연 풍경 속에서 고즈넉하고 여유로운 휴식을 취할 수 있습니다. 따뜻한 현지 주민들과의 소통도 기대할 수 있습니다.",
-                 "relevance": "ISFJ는 따뜻하고 정감 있는 분위기에서 진정한 휴식을 얻습니다. 스위스의 조용하고 아름다운 시골 마을은 ISFJ에게 평온함을 선사하고, 소규모 커뮤니티와의 교류를 통해 따뜻한 유대감을 형성하는 데 도움이 됩니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509171-switzerland_l.jpg", # 스위스 시골 마을
-                 "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"} # 스위스 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961321?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 하와이 해변
+                 "video_url": "https://www.youtube.com/watch?v=Y-jD1_vJbQk"} # 하와이 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ESFP", "reason": "ESFP의 밝고 긍정적인 에너지가 ISFJ에게 편안함을 주고, 여행을 더욱 즐겁게 만들어줍니다.",
                  "combination_recommendations": [
                      {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509164-hallstatt_l.jpg", # 할슈타트
-                      "video_url": "https://www.youtube.com/watch?v=R2_XQz12m6M"},
-                     {"name": "네덜란드 암스테르담 🌷", "description": "아름다운 운하와 예술적인 분위기, 그리고 친근한 현지인들이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509156-amsterdam_l.jpg", # 암스테르담
-                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"}
+                      "image_url": "https://images.unsplash.com/photo-1601053457199-63e5b3c5e8c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 할슈타트
+                      "video_url": "https://www.youtube.com/watch?v=R2_XQz12m6M"}
                  ]},
                 {"type": "ISTJ", "reason": "비슷한 현실 지향적이고 안정적인 성향으로 여행에 대한 깊은 공감대를 형성할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "캐나다 밴쿠버 🇨🇦", "description": "도시와 자연이 조화롭게 어우러진 곳으로, 안정적이고 안전한 환경을 제공합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509167-vancouver_l.jpg", # 밴쿠버
-                      "video_url": "https://www.youtube.com/watch?v=d_x-dJ4vM6A"},
-                     {"name": "오스트리아 비엔나 🎻", "description": "클래식 음악과 예술, 그리고 유서 깊은 건축물이 조화를 이루는 안정적인 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509161-vienna_l.jpg", # 비엔나
-                      "video_url": "https://www.youtube.com/watch?v=l_aB0K8S_Jk"}
+                      "image_url": "https://images.unsplash.com/photo-1500382017464-9669527f3944?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 밴쿠버
+                      "video_url": "https://www.youtube.com/watch?v=d_x-dJ4vM6A"}
                  ]}
             ]
         },
@@ -92,32 +70,21 @@ def main():
                 {"name": "교토, 일본 ⛩️",
                  "description": "오랜 역사와 전통이 살아 숨 쉬는 곳으로, 사찰과 정원을 통해 내면의 평화와 성찰의 시간을 가질 수 있습니다. 조용한 분위기에서 깊이 있는 문화 체험을 할 수 있습니다.",
                  "relevance": "INFJ는 영적인 성장과 깊이 있는 의미를 추구합니다. 교토의 고즈넉한 사찰과 정원은 INFJ에게 명상과 성찰의 기회를 제공하며, 일본의 전통 문화에 깊이 몰입하여 새로운 통찰을 얻을 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509165-kyoto_l.jpg", # 교토 금각사
-                 "video_url": "https://www.youtube.com/watch?v=4CjYp2D0164"}, # 교토 브이로그 예시
-                {"name": "페루 마추픽추 🇵🇪",
-                 "description": "신비로운 잉카 문명의 고대 유적으로, 압도적인 자연 경관과 함께 역사와 영적인 의미를 되새길 수 있는 곳입니다.",
-                 "relevance": "INFJ는 미지의 세계와 인류의 역사에 대한 깊은 호기심을 가지고 있습니다. 마추픽추는 그들의 통찰력을 자극하고, 고대 문명의 신비 속에서 존재의 의미와 연결감을 찾으려는 INFJ의 욕구를 충족시킬 것입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509168-machu-picchu_l.jpg", # 마추픽추
-                 "video_url": "https://www.youtube.com/watch?v=0k0x0L0Q000"} # 마추픽추 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1524386411545-0d0571f30739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아라시야마 대나무 숲
+                 "video_url": "https://www.youtube.com/watch?v=4CjYp2D0164"} # 교토 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFJ와 ENFP는 감성적 유대감을 형성하며 여행지의 숨겨진 의미와 아름다움을 함께 탐구하고 감정을 공유합니다.",
                  "combination_recommendations": [
                      {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "포르투갈 리스본 🇵🇹", "description": "아름다운 풍경과 역사적인 매력, 그리고 따뜻한 사람들이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509158-lisbon_l.jpg", # 리스본
-                      "video_url": "https://www.youtube.com/watch?v=hE_Vv-oY8lI"}
+                      "image_url": "https://images.unsplash.com/photo-1558231718-d703e3a4794e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 피렌체
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 논리적인 분석과 INFJ의 통찰력이 만나 여행지에 대한 풍부하고 다각적인 대화를 이끌어낼 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509157-athens_l.jpg", # 아테네
-                      "video_url": "https://www.youtube.com/watch?v=UqN6yq_mXG8"},
-                     {"name": "이집트 카이로 🇪🇬", "description": "고대 문명의 신비와 거대한 유적을 탐험하며 역사적, 철학적 의미를 탐구하기 좋은 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509155-cairo_l.jpg", # 카이로
-                      "video_url": "https://www.youtube.com/watch?v=kR2A2VzP-lQ"}
+                      "image_url": "https://images.unsplash.com/photo-1533105079780-fd825f38a53a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아테네
+                      "video_url": "https://www.youtube.com/watch?v=UqN6yq_mXG8"}
                  ]}
             ]
         },
@@ -127,32 +94,21 @@ def main():
                 {"name": "아이슬란드 🇮🇸",
                  "description": "독특하고 신비로운 자연경관과 지질학적 특성을 가진 곳으로, 일반적인 관광지보다는 탐험과 사색에 적합합니다. 효율적인 이동 계획이 중요합니다.",
                  "relevance": "INTJ는 미지의 것을 탐구하고 독창적인 경험을 추구합니다. 아이슬란드의 예측 불가능한 자연과 지질학적 경이로움은 INTJ의 지적 호기심을 자극하고, 혼자만의 시간을 가지며 깊이 생각할 수 있는 환경을 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509162-iceland_l.jpg", # 아이슬란드
-                 "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}, # 아이슬란드 브이로그 예시
-                {"name": "실리콘밸리, 미국 🇺🇸",
-                 "description": "세계적인 기술 혁신의 중심지로, 박물관과 스타트업 투어를 통해 미래 기술과 혁신적인 아이디어를 직접 경험할 수 있습니다.",
-                 "relevance": "INTJ는 전략적이고 미래 지향적인 사고를 합니다. 실리콘밸리는 그들의 비판적 사고와 혁신에 대한 갈증을 해소하고, 새로운 지식과 통찰을 얻는 데 최적의 장소입니다. 효율적이고 목적 지향적인 여행을 선호하는 INTJ에게 적합합니다.",
-                 "image_url": "https://cdn.cnn.com/cnnnext/dam/assets/200508103332-san-francisco-silicon-valley-full-169.jpg", # 실리콘밸리
-                 "video_url": "https://www.youtube.com/watch?v=VzK1f3j7FpA"} # 실리콘밸리 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1549448981-d0b8e7225143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아이슬란드 블루라군
+                 "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"} # 아이슬란드 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INTP", "reason": "INTJ와 INTP는 모두 논리적이고 분석적인 사고를 선호하여 여행지의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "일본 나오시마 🇯🇵", "description": "예술과 자연이 조화된 '예술의 섬'으로, 독특한 건축물과 현대 미술 작품이 많습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509172-naoshima_l.jpg", # 나오시마
-                      "video_url": "https://www.youtube.com/watch?v=wX1d3c0Y0I0"},
-                     {"name": "스위스 제네바 🇨🇭", "description": "CERN 등 세계적인 과학 연구 기관이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509169-geneva_l.jpg", # 제네바
-                      "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"}
+                      "image_url": "https://images.unsplash.com/photo-1582046522851-f7e912f2c81b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 나오시마
+                      "video_url": "https://www.youtube.com/watch?v=wX1d3c0Y0I0"}
                  ]},
                 {"type": "ENFP", "reason": "ENFP의 창의적이고 감성적인 관점이 INTJ의 논리적 사고에 새로운 영감을 주어 여행을 더 다채롭게 이해할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509168-new-zealand_l.jpg", # 뉴질랜드
-                      "video_url": "https://www.youtube.com/watch?v=e_x-dJ4vM6A"},
-                     {"name": "캐나다 밴프 🇨🇦", "description": "로키 산맥의 웅장한 자연 속에서 하이킹, 스키 등 다양한 활동을 즐길 수 있는 국립공원.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509173-banff_l.jpg", # 밴프
-                      "video_url": "https://www.youtube.com/watch?v=yYJ4wzNq8xQ"}
+                      "image_url": "https://images.unsplash.com/photo-1627918519445-6a58334812a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 뉴질랜드
+                      "video_url": "https://www.youtube.com/watch?v=e_x-dJ4vM6A"}
                  ]}
             ]
         },
@@ -162,32 +118,21 @@ def main():
                 {"name": "뉴질랜드 남섬 🏞️",
                  "description": "다양한 액티비티(번지점프, 래프팅, 하이킹 등)와 웅장한 자연경관을 즐길 수 있는 곳입니다. 도전적인 경험과 실용적인 문제 해결이 필요한 여행에 적합합니다.",
                  "relevance": "ISTP는 직접적인 경험과 즉각적인 문제 해결을 선호합니다. 뉴질랜드 남섬은 그들의 모험심을 자극하고, 다양한 아웃도어 활동을 통해 실제적인 기술을 사용하고 상황에 대처하는 능력을 발휘할 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509168-new-zealand_l.jpg", # 뉴질랜드 남섬
-                 "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"}, # 뉴질랜드 브이로그 예시
-                {"name": "미국 서부 로드트립 🚗",
-                 "description": "국립공원과 다양한 도시를 자유롭게 탐험하며, 예측 불가능한 상황에 유연하게 대처하는 능력을 키울 수 있는 여행입니다. 실용적인 계획과 즉흥성이 조화됩니다.",
-                 "relevance": "ISTP는 자유롭고 구속받지 않는 여행을 선호하며, 새로운 상황에 대한 적응력이 뛰어납. 로드트립은 그들이 스스로 경로를 개척하고, 예상치 못한 문제에 대처하며, 직접 운전하고 탐험하는 즐거움을 만끽할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509174-usa-road-trip_l.jpg", # 미국 로드트립
-                 "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"} # 미국 서부 로드트립 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1627918519445-6a58334812a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 뉴질랜드 퀸스타운
+                 "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"} # 뉴질랜드 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ESFP", "reason": "ISTP의 논리적이고 실용적인 면모와 ESFP의 활동적이고 즉흥적인 면모가 결합하여 여행에 대한 흥미로운 관점과 즉각적인 반응을 공유할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509154-bangkok_l.jpg", # 방콕
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "스페인 이비자 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509175-ibiza_l.jpg", # 이비자
-                      "video_url": "https://www.youtube.com/watch?v=P2_XQz12m6M"}
+                      "image_url": "https://images.unsplash.com/photo-1549448981-d0b8e7225143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 방콕
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]},
                 {"type": "ENTP", "reason": "ENTP의 창의적인 아이디어와 ISTP의 문제 해결 능력이 시너지를 내어 여행지의 복잡한 설정이나 과학적 원리에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "아이슬란드 🇮🇸", "description": "활화산, 빙하, 온천 등 독특한 지형이 많은 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509162-iceland_l.jpg", # 아이슬란드
-                      "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"},
-                     {"name": "독일 베를린 🇩🇪", "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린
-                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"}
+                      "image_url": "https://images.unsplash.com/photo-1549448981-d0b8e7225143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아이슬란드
+                      "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}
                  ]}
             ]
         },
@@ -197,67 +142,45 @@ def main():
                 {"name": "파리, 프랑스 🇫🇷",
                  "description": "세계적인 미술관과 아름다운 건축물, 낭만적인 분위기가 가득한 예술의 도시입니다. 자유롭게 거닐며 영감을 얻고, 감각적인 경험을 즐기기에 좋습니다.",
                  "relevance": "ISFP는 예술적인 감각이 뛰어나고 아름다움을 추구합니다. 파리의 예술적 분위기와 감각적인 요소들은 ISFP의 미적 감수성을 자극하고, 자유로운 분위기 속에서 자신만의 영감을 찾을 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509153-paris_l.jpg", # 파리 에펠탑
-                 "video_url": "https://www.youtube.com/watch?v=p2N0wLz0_00"}, # 파리 브이로그 예시
-                {"name": "발리, 인도네시아 🧘‍♀️",
-                 "description": "아름다운 자연경관, 독특한 문화, 그리고 예술적인 분위기가 어우러진 곳입니다. 요가, 명상 등 평화롭고 감각적인 휴식을 취할 수 있습니다.",
-                 "relevance": "ISFP는 현재를 즐기고 내면의 평화를 중요하게 생각합니다. 발리의 평화로운 분위기와 자연 친화적인 환경은 ISFP가 자신을 돌아보고, 예술적인 영감을 얻으며, 감각적인 휴식을 취하는 데 최적의 장소입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509176-bali_l.jpg", # 발리
-                 "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"} # 발리 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1502602898669-ee2877a165b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 파리 에펠탑
+                 "video_url": "https://www.youtube.com/watch?v=p2N0wLz0_00"} # 파리 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ENFJ", "reason": "ENFJ의 따뜻하고 지지적인 성향이 ISFP의 감수성과 어우러져 여행 속에서 깊이 있는 감정을 나누고 서로에게 영감을 줄 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "스페인 세비야 💃", "description": "정열적인 플라멩코와 아름다운 알카사르 궁전이 있는 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509177-seville_l.jpg", # 세비야
-                      "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"},
-                     {"name": "쿠바 아바나 🇨🇺", "description": "시간이 멈춘 듯한 올드카와 다채로운 색감의 건축물, 그리고 활기찬 음악이 넘치는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509170-havana_l.jpg", # 아바나
+                      "image_url": "https://images.unsplash.com/photo-1594950346857-4560d6e6a17b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 세비야
                       "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}
                  ]},
                 {"type": "INFP", "reason": "ISFP와 INFP는 비슷한 감성적 깊이를 가지고 있어 여행이 전달하는 메시지나 감동을 함께 느끼고 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "제주도, 대한민국 🍊", "description": "아름다운 자연 경관과 독특한 문화가 어우러진 섬.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509178-jeju-island_l.jpg", # 제주도
-                      "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"},
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
+                      "image_url": "https://images.unsplash.com/photo-1582046522851-f7e912f2c81b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 제주도
+                      "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"}
                  ]}
             ]
         },
         "INFP": {
             "summary": "이상주의적이고 창의적이며, 깊은 감수성과 공감 능력을 가진 유형입니다. 의미와 진정성을 중요하게 생각하며, 세상을 더 나은 곳으로 만들고자 합니다. 몽상적이고 영감을 추구하며, 개인의 가치를 소중히 여깁니다. 혼자만의 사색과 영감의 시간을 중요하게 생각합니다.",
             "destinations": [
-                {"name": "아이슬란드 🇮🇸",
-                 "description": "경이로운 자연경관 속에서 고독한 사색과 영감을 얻을 수 있는 곳입니다. 인간의 왜소함을 느끼고 우주의 신비에 대해 생각할 수 있는 장소입니다.",
-                 "relevance": "INFP는 이상주의적이고 사색적이며, 자연 속에서 깊은 영감을 얻습니다. 아이슬란드의 웅장하고 신비로운 자연은 INFP가 자신을 돌아보고, 삶과 존재의 의미에 대해 깊이 생각할 수 있는 환경을 제공하며, 내면의 평화를 찾는 데 도움을 줍니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509162-iceland_l.jpg", # 아이슬란드
-                 "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}, # 아이슬란드 브이로그 예시
                 {"name": "아일랜드 ☘️",
                  "description": "아름다운 자연과 신화적인 이야기가 가득한 곳으로, 영감을 얻고 감성적인 경험을 하기에 좋습니다. 조용한 시골 마을과 따뜻한 펍 문화도 매력적입니다.",
                  "relevance": "INFP는 감수성이 풍부하고 영감을 추구합니다. 아일랜드의 신비로운 분위기와 풍부한 문화는 INFP의 상상력을 자극하고, 감성적인 경험을 통해 자신만의 이야기를 만들어갈 수 있도록 돕습니다. 따뜻한 현지인들과의 교류도 INFP에게 소중한 경험이 될 것입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509179-ireland_l.jpg", # 아일랜드
+                 "image_url": "https://images.unsplash.com/photo-1548325983-a75d5e5b327b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아일랜드 모허 절벽
                  "video_url": "https://www.youtube.com/watch?v=Q2_XQz12m6M"} # 아일랜드 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ENFP", "reason": "INFP와 ENFP는 모두 이상주의적이고 감수성이 풍부하여 여행지의 숨겨진 의미나 감성적인 부분에 대해 깊이 있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "포르투갈 리스본 🇵🇹", "description": "아름다운 풍경과 역사적인 매력, 그리고 따뜻한 사람들이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509158-lisbon_l.jpg", # 리스본
-                      "video_url": "https://www.youtube.com/watch?v=hE_Vv-oY8lI"},
-                     {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
+                      "image_url": "https://images.unsplash.com/photo-1588667635905-2b09a06f365d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 리스본
+                      "video_url": "https://www.youtube.com/watch?v=hE_Vv-oY8lI"}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 INFP의 이상주의가 만나 여행지의 철학적 메시지에 대해 심도 깊은 논의를 할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "인도 바라나시 🇮🇳", "description": "삶과 죽음이 공존하는 신비로운 도시로, 강가에서 영적인 경험을 할 수 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509180-varanasi_l.jpg", # 바라나시
-                      "video_url": "https://www.youtube.com/watch?v=e_x-dJ4vM6A"},
-                     {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509157-athens_l.jpg", # 아테네
-                      "video_url": "https://www.youtube.com/watch?v=UqN6yq_mXG8"}
+                      "image_url": "https://images.unsplash.com/photo-1601053457199-63e5b3c5e8c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 바라나시
+                      "video_url": "https://www.youtube.com/watch?v=e_x-dJ4vM6A"}
                  ]}
             ]
         },
@@ -267,67 +190,45 @@ def main():
                 {"name": "스위스 제네바 🇨🇭",
                  "description": "CERN(유럽 입자 물리 연구소)과 같은 과학 연구 기관이 있는 도시로, 물리학과 우주의 비밀을 탐구하기 좋습니다. 조용하고 지적인 분위기를 선호합니다.",
                  "relevance": "INTP는 지적인 호기심과 이론적인 탐구를 즐깁니다. 제네바는 세계적인 과학 연구의 중심지로, INTP가 복잡한 과학적 개념을 직접 보고 배우며, 그들의 지적 욕구를 충족시킬 수 있는 이상적인 장소입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509169-geneva_l.jpg", # 제네바
-                 "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"}, # 제네바 브이로그 예시
-                {"name": "독일 베를린 🇩🇪",
-                 "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시입니다. 다양한 분야의 지식을 탐구하고, 혼자만의 시간을 보내기 좋습니다.",
-                 "relevance": "INTP는 독창적이고 독립적인 사고를 하며, 다양한 분야의 지식을 탐구하는 것을 즐깁니다. 베를린은 그들의 지적 호기심을 자극하고, 복잡한 역사와 문화적 배경 속에서 새로운 아이디어를 발견할 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린
-                 "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"} # 베를린 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1576483584852-c0e4479e0a0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 제네바 제토 분수
+                 "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"} # 제네바 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INTJ", "reason": "INTP와 INTJ는 모두 논리적이고 분석적인 사고를 선호하여 여행지의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "일본 나오시마 🇯🇵", "description": "예술과 자연이 조화된 '예술의 섬'으로, 독특한 건축물과 현대 미술 작품이 많습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509172-naoshima_l.jpg", # 나오시마
-                      "video_url": "https://www.youtube.com/watch?v=wX1d3c0Y0I0"},
-                     {"name": "미국 워싱턴 D.C. 🇺🇸", "description": "스미소니언 박물관과 다양한 국립 박물관이 밀집해 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509181-washington-dc_l.jpg", # 워싱턴 D.C.
-                      "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"}
+                      "image_url": "https://images.unsplash.com/photo-1582046522851-f7e912f2c81b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 나오시마
+                      "video_url": "https://www.youtube.com/watch?v=wX1d3c0Y0I0"}
                  ]},
                 {"type": "ENTP", "reason": "비슷한 지적 호기심과 논리적 탐구심을 공유하여 여행지의 복잡한 주제에 대해 흥미로운 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509156-amsterdam_l.jpg", # 암스테르담
-                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"},
-                     {"name": "아이슬란드 🇮🇸", "description": "활화산, 빙하, 온천 등 독특한 지형이 많은 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509162-iceland_l.jpg", # 아이슬란드
-                      "video_url": "https://www.youtube.com/watch?v=kYJm3s0r0I0"}
+                      "image_url": "https://images.unsplash.com/photo-1506781708899-7f41f0f4e3c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 암스테르담
+                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"}
                  ]}
             ]
         },
         "ESTP": {
-            "summary": "현실적이고 활동적이며, 개방적이고 적응력이 뛰어난 유형입니다. 새로운 경험을 좋아하고, 문제 해결에 적극적입니다. 에너지가 넘치고 즉흥적이며, 뛰어난 관찰력으로 현실을 파악합니다. 스릴과 재미를 추구하며, 활동적인 여행을 선호합니다.",
+            "summary": "현실적이고 활동적이며, 개방적이고 적응력이 뛰어난 유형입니다. 새로운 경험을 좋아하고, 위기 상황에서 침착하게 대응합니다. 에너지가 넘치고 즉흥적이며, 뛰어난 관찰력으로 현실을 파악합니다. 스릴과 재미를 추구하며, 활동적인 여행을 선호합니다.",
             "destinations": [
                 {"name": "라스베이거스, 미국 🎲",
                  "description": "다양한 엔터테인먼트, 화려한 쇼, 카지노 등 즉흥적이고 활동적인 경험을 즐길 수 있는 도시입니다. 역동적인 에너지가 넘칩니다.",
                  "relevance": "ESTP는 스릴과 재미를 추구하며, 활동적이고 즉흥적인 경험을 좋아합니다. 라스베이거스는 그들의 에너지를 발산하고, 다양한 유흥과 활동을 통해 즉각적인 만족감을 얻을 수 있는 최적의 장소입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509182-las-vegas_l.jpg", # 라스베이거스
-                 "video_url": "https://www.youtube.com/watch?v=L2G5Z0Q0000"}, # 라스베이거스 브이로그 예시
-                {"name": "태국 푸켓 🏖️",
-                 "description": "아름다운 해변과 다양한 해양 스포츠, 활기찬 밤문화가 어우러진 휴양지입니다. 즉흥적인 여행과 활동적인 경험을 즐기기에 좋습니다.",
-                 "relevance": "ESTP는 새로운 경험에 대한 호기심이 많고, 활동적인 것을 즐깁니다. 푸켓은 다양한 수상 스포츠와 활기찬 분위기를 제공하여 ESTP가 에너지를 발산하고, 즉흥적인 여행을 통해 즐거움을 만끽할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509183-phuket_l.jpg", # 푸켓
-                 "video_url": "https://www.youtube.com/watch?v=P2_XQz12m6M"} # 푸켓 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1555562157-55c3286b2403?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 라스베이거스 스트립
+                 "video_url": "https://www.youtube.com/watch?v=L2G5Z0Q0000"} # 라스베이거스 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ESFP", "reason": "ESTP의 현실적인 관점과 ESFP의 예술적인 감각이 만나 영화를 다양한 시각에서 즐길 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "이비자, 스페인 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509175-ibiza_l.jpg", # 이비자
-                      "video_url": "https://www.youtube.com/watch?v=P2_XQz12m6M"},
-                     {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509154-bangkok_l.jpg", # 방콕
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
+                      "image_url": "https://images.unsplash.com/photo-1506781708899-7f41f0f4e3c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 이비자
+                      "video_url": "https://www.youtube.com/watch?v=P2_XQz12m6M"}
                  ]},
                 {"type": "ENTJ", "reason": "ENTJ의 전략적인 사고와 ESTP의 실행력이 결합하여 여행의 주제나 전개에 대해 활발하고 생산적인 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509184-dubai_l.jpg", # 두바이
-                      "video_url": "https://www.youtube.com/watch?v=A2G5Z0Q0000"},
-                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509185-singapore_l.jpg", # 싱가포르
-                      "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"}
+                      "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 두바이
+                      "video_url": "https://www.youtube.com/watch?v=A2G5Z0Q0000"}
                  ]}
             ]
         },
@@ -337,32 +238,21 @@ def main():
                 {"name": "리우데자네이루, 브라질 🇧🇷",
                  "description": "활기찬 축제와 아름다운 해변, 그리고 열정적인 문화가 어우러진 도시입니다. 사람들과의 교류와 파티를 즐기기에 최적입니다.",
                  "relevance": "ESFP는 사교적이고 낙천적이며, 활기찬 분위기에서 에너지를 얻습니다. 리우의 카니발과 해변 문화는 ESFP의 즐거움을 극대화하고, 사람들과의 자연스러운 교류를 통해 행복을 느낄 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509186-rio-de-janeiro_l.jpg", # 리우데자네이루
-                 "video_url": "https://www.youtube.com/watch?v=C2G5Z0Q0000"}, # 리우데자네이루 브이로그 예시
-                {"name": "오키나와, 일본 🐠",
-                 "description": "아름다운 바다와 따뜻한 날씨, 그리고 독특한 지역 문화가 있는 휴양지입니다. 해양 스포츠와 맛있는 음식을 즐기며 편안하고 즐거운 시간을 보낼 수 있습니다.",
-                 "relevance": "ESFP는 현재를 즐기고 감각적인 경험을 중요시합니다. 오키나와는 아름다운 자연 속에서 휴식과 즐거움을 동시에 선사하며, ESFP의 낙천적인 성향을 만족시키고 잊지 못할 추억을 만들 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509187-okinawa_l.jpg", # 오키나와
-                 "video_url": "https://www.youtube.com/watch?v=D2G5Z0Q0000"} # 오키나와 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1622080061985-05d548332152?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 리우데자네이루 예수상
+                 "video_url": "https://www.youtube.com/watch?v=C2G5Z0Q0000"} # 리우데자네이루 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFP의 밝은 에너지와 ISFJ의 차분하고 배려심 깊은 성향이 어우러져 편안하고 즐거운 영화 감상 분위기를 만듭니다.",
                  "combination_recommendations": [
                      {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509164-hallstatt_l.jpg", # 할슈타트
-                      "video_url": "https://www.youtube.com/watch?v=R2_XQz12m6M"},
-                     {"name": "네덜란드 암스테르담 🌷", "description": "아름다운 운하와 예술적인 분위기, 그리고 친근한 현지인들이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509156-amsterdam_l.jpg", # 암스테르담
-                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"}
+                      "image_url": "https://images.unsplash.com/photo-1601053457199-63e5b3c5e8c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 할슈타트
+                      "video_url": "https://www.youtube.com/watch?v=R2_XQz12m6M"}
                  ]},
                 {"type": "ENFP", "reason": "ESFP와 ENFP는 비슷한 낙천적이고 사교적인 성향으로 영화에 대한 활발한 감정 공유와 재미있는 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "태국 방콕 🇹🇭", "description": "활기찬 시장과 독특한 문화, 다양한 길거리 음식이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509154-bangkok_l.jpg", # 방콕
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "스페인 이비자 🎶", "description": "세계적인 파티 아일랜드로, 활기찬 클럽 문화와 아름다운 해변이 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509175-ibiza_l.jpg", # 이비자
-                      "video_url": "https://www.youtube.com/watch?v=P2_XQz12m6M"}
+                      "image_url": "https://images.unsplash.com/photo-1549448981-d0b8e7225143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 방콕
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]}
             ]
         },
@@ -372,67 +262,45 @@ def main():
                 {"name": "태국 치앙마이 🇹🇭",
                  "description": "자유로운 분위기와 풍부한 문화 체험, 그리고 현지인과의 교류가 용이한 도시입니다. 요가, 명상, 쿠킹 클래스 등 다양한 경험을 할 수 있습니다.",
                  "relevance": "ENFP는 새로운 문화와 사람들과의 교류를 통해 영감을 얻습니다. 치앙마이는 그들의 호기심을 자극하고, 다양한 문화 체험과 현지인과의 소통을 통해 깊이 있는 경험을 할 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509188-chiang-mai_l.jpg", # 치앙마이
-                 "video_url": "https://www.youtube.com/watch?v=E2G5Z0Q0000"}, # 치앙마이 브이로그 예시
-                {"name": "인도네시아 발리 🧘‍♀️",
-                 "description": "아름다운 자연 속에서 요가, 명상, 예술 활동 등을 통해 영적인 성장과 창의적인 영감을 얻을 수 있는 곳입니다. 자유롭고 개방적인 분위기를 자랑합니다.",
-                 "relevance": "ENFP는 상상력이 풍부하고 새로운 아이디어에 개방적이며, 영적인 성장을 추구합니다. 발리는 그들의 영감을 자극하고, 자연 속에서 자신을 돌아보며, 새로운 사람들과의 교류를 통해 풍부한 경험을 할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509176-bali_l.jpg", # 발리
-                 "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"} # 발리 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1506781708899-7f41f0f4e3c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 치앙마이 사원
+                 "video_url": "https://www.youtube.com/watch?v=E2G5Z0Q0000"} # 치앙마이 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INFJ", "reason": "ENFP의 열정적인 아이디어와 INFJ의 통찰력이 만나 여행지의 깊은 의미와 숨겨진 메시지에 대해 풍부한 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "인도 바라나시 🇮🇳", "description": "삶과 죽음이 공존하는 신비로운 도시로, 강가에서 영적인 경험을 할 수 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509180-varanasi_l.jpg", # 바라나시
-                      "video_url": "https://www.youtube.com/watch?v=e_x-dJ4vM6A"}
+                      "image_url": "https://images.unsplash.com/photo-1558231718-d703e3a4794e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 피렌체
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]},
                 {"type": "INTJ", "reason": "INTJ의 논리적이고 분석적인 관점에 ENFP의 창의적인 사고가 더해져 여행지를 다각도로 해석하고 새로운 관점을 공유할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "뉴질랜드 🇳🇿", "description": "웅장한 자연 경관과 다양한 액티비티가 있는 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509168-new-zealand_l.jpg", # 뉴질랜드
-                      "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"},
-                     {"name": "캐나다 밴프 🇨🇦", "description": "로키 산맥의 웅장한 자연 속에서 하이킹, 스키 등 다양한 활동을 즐길 수 있는 국립공원.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509173-banff_l.jpg", # 밴프
-                      "video_url": "https://www.youtube.com/watch?v=yYJ4wzNq8xQ"}
+                      "image_url": "https://images.unsplash.com/photo-1627918519445-6a58334812a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 뉴질랜드
+                      "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"}
                  ]}
             ]
         },
         "ENTP": {
             "summary": "논리적이고 창의적이며, 새로운 아이디어를 탐구하고 토론을 즐기는 유형입니다. 도전적이고, 틀에 얽매이지 않는 사고방식을 가지고 있습니다. 뛰어난 통찰력과 비판적 사고로 문제를 다각도로 분석합니다. 예상치 못한 상황과 지적인 도전을 즐깁니다.",
             "destinations": [
-                {"name": "이스라엘 예루살렘 🇮🇱",
-                 "description": "역사적, 종교적으로 복잡하고 논쟁적인 주제가 많은 도시입니다. 다양한 관점을 접하고 지적인 토론을 하기에 적합합니다.",
-                 "relevance": "ENTP는 지적인 호기심과 토론을 즐기며, 복잡하고 다면적인 주제에 매력을 느낍니다. 예루살렘은 그들의 비판적 사고를 자극하고, 다양한 역사적, 문화적 관점을 탐구하며 새로운 아이디어를 얻을 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509189-jerusalem_l.jpg", # 예루살렘
-                 "video_url": "https://www.youtube.com/watch?v=F2G5Z0Q0000"}, # 예루살렘 브이로그 예시
                 {"name": "독일 베를린 🇩🇪",
                  "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시입니다. 다양한 분야의 지식을 탐구하고, 새로운 아이디어와 논쟁적인 주제에 대해 활발하게 토론하기 좋습니다.",
                  "relevance": "ENTP는 독창적이고 비판적인 사고를 하며, 기존의 틀에 얽매이지 않는 것을 선호합니다. 베를린은 그들의 지적 호기심을 자극하고, 복잡한 역사와 문화적 배경 속에서 새로운 아이디어를 발견하고, 논쟁적인 주제에 대해 활발하게 토론할 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린
+                 "image_url": "https://images.unsplash.com/photo-1528164344705-477894340d85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 베를린 브란덴부르크 문
                  "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"} # 베를린 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTP와 INTP는 모두 지적인 호기심과 논리적 탐구심이 강하여 여행지의 복잡한 주제나 과학적 원리에 대해 심도 깊은 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "네덜란드 암스테르담 🇳🇱", "description": "자유롭고 혁신적인 분위기의 도시로, 과학 박물관, 예술 작품, 그리고 독특한 문화가 있습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509156-amsterdam_l.jpg", # 암스테르담
-                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"},
-                     {"name": "스위스 제네바 🇨🇭", "description": "CERN 등 세계적인 과학 연구 기관이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509169-geneva_l.jpg", # 제네바
-                      "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"}
+                      "image_url": "https://images.unsplash.com/photo-1506781708899-7f41f0f4e3c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 암스테르담
+                      "video_url": "https://www.youtube.com/watch?v=b1X4wzNq8xQ"}
                  ]},
                 {"type": "INFJ", "reason": "INFJ의 통찰력과 ENTP의 논리적 분석이 만나 여행지의 숨겨진 의미와 철학적 메시지에 대해 풍부하고 깊이 있는 논의를 이끌어낼 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "그리스 아테네 🇬🇷", "description": "고대 철학과 민주주의의 발상지로, 유적과 박물관이 많습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509157-athens_l.jpg", # 아테네
-                      "video_url": "https://www.youtube.com/watch?v=UqN6yq_mXG8"},
-                     {"name": "이집트 카이로 🇪🇬", "description": "고대 문명의 신비와 거대한 유적을 탐험하며 역사적, 철학적 의미를 탐구하기 좋은 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509155-cairo_l.jpg", # 카이로
-                      "video_url": "https://www.youtube.com/watch?v=kR2A2VzP-lQ"}
+                      "image_url": "https://images.unsplash.com/photo-1533105079780-fd91d0c92985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 아테네
+                      "video_url": "https://www.youtube.com/watch?v=UqN6yq_mXG8"}
                  ]}
             ]
         },
@@ -442,32 +310,21 @@ def main():
                 {"name": "싱가포르 🇸🇬",
                  "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시입니다. 계획대로 움직이기에 최적의 장소입니다.",
                  "relevance": "ESTJ는 효율성과 질서를 중요하게 생각하며, 잘 정돈된 환경에서 편안함을 느낍니다. 싱가포르는 그들의 계획적인 여행 스타일을 만족시키고, 안전하고 예측 가능한 환경에서 효율적으로 관광할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509185-singapore_l.jpg", # 싱가포르
-                 "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"}, # 싱가포르 브이로그 예시
-                {"name": "스위스 🇨🇭",
-                 "description": "정확한 기차 시스템과 아름다운 자연경관, 그리고 체계적인 등산 코스를 제공합니다. 효율적인 계획을 통해 웅장한 자연을 만끽하기 좋습니다.",
-                 "relevance": "ESTJ는 책임감이 강하고 계획적인 여행을 선호합니다. 스위스의 잘 갖춰진 교통 시스템과 체계적인 관광 인프라를 통해 ESTJ가 효율적으로 여행 일정을 소화하고, 아름다운 자연 속에서도 예측 가능한 즐거움을 누릴 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509171-switzerland_l.jpg", # 스위스
-                 "video_url": "https://www.youtube.com/watch?v=vVj4x73K38M"} # 스위스 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 싱가포르 마리나 베이 샌즈
+                 "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"} # 싱가포르 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ISTJ", "reason": "ESTJ와 ISTJ는 모두 현실적이고 체계적인 사고를 선호하여 여행의 사실적 배경이나 논리적 전개에 대해 깊은 공감대를 형성하며 감상할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "독일 베를린 🇩🇪", "description": "풍부한 역사 유적과 현대적인 도시의 조화가 돋보이는 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린
-                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"},
-                     {"name": "로마, 이탈리아 🏛️", "description": "고대 로마 유적지와 박물관이 풍부하여 역사적 사실과 정보를 체계적으로 탐험하기 좋은 곳.",
-                      "image_url": "https://img.traveltimes.co.kr/news/articleView.html?idxno=119864", # 로마
-                      "video_url": "https://www.youtube.com/watch?v=F0p7Lp_a5wQ"}
+                      "image_url": "https://images.unsplash.com/photo-1528164344705-477894340d85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 베를린
+                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"}
                  ]},
                 {"type": "ENTJ", "reason": "ENTJ의 전략적인 사고와 ESTP의 실행력이 결합하여 여행의 주제나 전개에 대해 활발하고 생산적인 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "두바이, UAE 🇦🇪", "description": "세계 최고층 빌딩과 인공 섬 등 혁신적이고 웅장한 건축물이 많은 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509184-dubai_l.jpg", # 두바이
-                      "video_url": "https://www.youtube.com/watch?v=A2G5Z0Q0000"},
-                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509185-singapore_l.jpg", # 싱가포르
-                      "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"}
+                      "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 두바이
+                      "video_url": "https://www.youtube.com/watch?v=A2G5Z0Q0000"}
                  ]}
             ]
         },
@@ -477,32 +334,21 @@ def main():
                 {"name": "바르셀로나, 스페인 🇪🇸",
                  "description": "활기찬 분위기와 아름다운 건축물, 맛있는 음식이 있는 도시입니다. 사람들과의 교류와 축제를 즐기며 즐거운 추억을 만들기에 좋습니다.",
                  "relevance": "ESFJ는 사교적이고 활기찬 분위기에서 에너지를 얻으며, 사람들과의 교류를 중요시합니다. 바르셀로나의 열정적인 축제와 친근한 분위기는 ESFJ가 편안하게 즐기며 새로운 사람들을 만나고, 함께 즐거운 경험을 할 수 있도록 돕습니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509166-barcelona_l.jpg", # 바르셀로나
-                 "video_url": "https://www.youtube.com/watch?v=t5A5iF3vT3s"}, # 바르셀로나 브이로그 예시
-                {"name": "로마, 이탈리아 🇮🇹",
-                 "description": "유서 깊은 역사 유적과 활기찬 광장, 그리고 맛있는 이탈리아 음식이 있는 도시입니다. 가족이나 친구와 함께 여유롭게 문화와 미식을 즐기기 좋습니다.",
-                 "relevance": "ESFJ는 사랑하는 사람들과의 조화로운 여행을 선호하며, 전통과 문화를 존중합니다. 로마는 그들의 공동체적인 가치를 충족시키고, 맛있는 음식을 함께 나누며 즐거운 추억을 만들 수 있는 기회를 제공합니다.",
-                 "image_url": "https://img.traveltimes.co.kr/news/articleView.html?idxno=119864", # 로마
-                 "video_url": "https://www.youtube.com/watch?v=F0p7Lp_a5wQ"} # 로마 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1539037116277-fd91d0c92985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 바르셀로나 사그라다 파밀리아
+                 "video_url": "https://www.youtube.com/watch?v=t5A5iF3vT3s"} # 바르셀로나 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "ISFJ", "reason": "ESFJ와 ISFJ는 모두 사람들과의 조화를 중요하게 생각하고 따뜻한 마음을 가지고 있어, 여행지에서 감동적인 스토리에 깊이 공감하며 함께 즐거운 시간을 보낼 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "오스트리아 할슈타트 🇦🇹", "description": "그림 같은 호수 마을로, 아름다운 풍경과 아기자기한 상점들이 매력적입니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509164-hallstatt_l.jpg", # 할슈타트
-                      "video_url": "https://www.youtube.com/watch?v=R2_XQz12m6M"}
+                      "image_url": "https://images.unsplash.com/photo-1558231718-d703e3a4794e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 피렌체
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]},
                 {"type": "ENFJ", "reason": "ENFJ의 리더십과 ESFJ의 협력적인 태도가 만나 여행에 대한 감상평을 활발하게 나누고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "하와이, 미국 🌺", "description": "아름다운 자연 속에서 휴식을 취하고, 가족이나 연인과 편안하게 시간을 보낼 수 있는 리조트 여행에 적합합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509163-hawaii_l.jpg", # 하와이
-                      "video_url": "https://www.youtube.com/watch?v=Y-jD1_vJbQk"},
-                     {"name": "발리, 인도네시아 🧘‍♀️", "description": "아름다운 자연경관, 독특한 문화, 그리고 예술적인 분위기가 어우러진 곳.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509176-bali_l.jpg", # 발리
-                      "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"}
+                      "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961321?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 하와이
+                      "video_url": "https://www.youtube.com/watch?v=Y-jD1_vJbQk"}
                  ]}
             ]
         },
@@ -512,32 +358,21 @@ def main():
                 {"name": "캄보디아 시엠립 (앙코르와트) 🇰🇭",
                  "description": "고대 유적 앙코르와트의 웅장함과 함께 현지 커뮤니티와의 교류를 통해 문화적 이해를 높일 수 있는 곳입니다. 봉사 활동이나 교육 프로그램에 참여할 수도 있습니다.",
                  "relevance": "ENFJ는 타인의 성장에 관심을 가지고 긍정적인 영향을 주는 것을 좋아합니다. 앙코르와트의 역사적 의미와 함께 현지 문화를 체험하고, 도움이 필요한 커뮤니티에 기여하며, 자신의 비전을 공유할 수 있는 기회를 통해 깊이 있는 만족감을 얻을 것입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509190-angkor-wat_l.jpg", # 앙코르와트
-                 "video_url": "https://www.youtube.com/watch?v=G2G5Z0Q0000"}, # 앙코르와트 브이로그 예시
-                {"name": "페루 마추픽추 🇵🇪",
-                 "description": "신비로운 잉카 문명의 고대 유적으로, 압도적인 자연 경관과 함께 역사와 영적인 의미를 되새길 수 있는 곳입니다. 그룹 투어를 통해 사람들과의 교류를 즐기기에도 좋습니다.",
-                 "relevance": "ENFJ는 의미 있는 경험과 사람들과의 깊은 연결을 중시합니다. 마추픽추는 그들의 통찰력을 자극하고, 그룹 투어를 통해 새로운 사람들과 만나 영감을 주고받으며, 함께 경이로운 경험을 나눌 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509168-machu-picchu_l.jpg", # 마추픽추
-                 "video_url": "https://www.youtube.com/watch?v=0k0x0L0Q000"} # 마추픽추 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1510255375000-0e121ac47c34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 앙코르와트
+                 "video_url": "https://www.youtube.com/watch?v=G2G5Z0Q0000"} # 앙코르와트 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INFP", "reason": "ENFJ의 따뜻하고 지지적인 성향과 INFP의 감성적인 깊이가 만나 여행지에서 감정을 풍부하게 공유하고 서로에게 긍정적인 영향을 줄 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "인도네시아 발리 🧘‍♀️", "description": "아름다운 자연 속에서 요가, 명상, 예술 활동 등을 통해 영적인 성장과 창의적인 영감을 얻을 수 있는 곳입니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509176-bali_l.jpg", # 발리
-                      "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"},
-                     {"name": "태국 치앙마이 🇹🇭", "description": "자유로운 분위기와 풍부한 문화 체험, 그리고 현지인과의 교류가 용이한 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509188-chiang-mai_l.jpg", # 치앙마이
-                      "video_url": "https://www.youtube.com/watch?v=E2G5Z0Q0000"}
+                      "image_url": "https://images.unsplash.com/photo-1582046522851-f7e912f2c81b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 발리
+                      "video_url": "https://www.youtube.com/watch?v=a1_W_z0Q000"}
                  ]},
                 {"type": "ESFJ", "reason": "비슷하게 사교적이고 협력적인 성향으로 여행 감상 후 활발한 대화를 나누며 즐거움을 배가시킬 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "이탈리아 피렌체 🇮🇹", "description": "르네상스 예술과 문화의 중심지로, 아름다운 건축물과 예술 작품이 가득합니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509160-florence_l.jpg", # 피렌체
-                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"},
-                     {"name": "스페인 바르셀로나 🇪🇸", "description": "활기찬 분위기와 아름다운 건축물, 맛있는 음식이 있는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509166-barcelona_l.jpg", # 바르셀로나
-                      "video_url": "https://www.youtube.com/watch?v=t5A5iF3vT3s"}
+                      "image_url": "https://images.unsplash.com/photo-1558231718-d703e3a4794e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 피렌체
+                      "video_url": "https://www.youtube.com/watch?v=hB9i2d0gYgM"}
                  ]}
             ]
         },
@@ -547,32 +382,21 @@ def main():
                 {"name": "뉴욕, 미국 🗽",
                  "description": "세계 경제와 문화의 중심지로, 다양한 비즈니스 기회와 문화 체험, 그리고 도전적인 경험을 할 수 있는 도시입니다. 효율적인 계획과 리더십 발휘에 적합합니다.",
                  "relevance": "ENTJ는 목표 지향적이고 전략적인 사고를 하며, 도전적인 환경에서 에너지를 얻습니다. 뉴욕은 그들의 야망을 자극하고, 다양한 분야에서 새로운 기회를 탐색하며, 효율적인 계획을 통해 많은 것을 성취할 수 있는 장소입니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509191-new-york-city_l.jpg", # 뉴욕
-                 "video_url": "https://www.youtube.com/watch?v=H2G5Z0Q0000"}, # 뉴욕 브이로그 예시
-                {"name": "상하이, 중국 🇨🇳",
-                 "description": "급변하는 도시 풍경과 최첨단 기술이 어우러진 곳으로, 미래 지향적인 비전과 효율성을 엿볼 수 있습니다. 비즈니스와 문화 탐험을 동시에 할 수 있습니다.",
-                 "relevance": "ENTJ는 미래 지향적이고 혁신적인 도전을 즐깁니다. 상하이는 그들의 비전을 확장하고, 빠른 변화 속에서 새로운 기회를 포착하며, 효율적인 도시 시스템을 경험할 수 있는 기회를 제공합니다.",
-                 "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509192-shanghai_l.jpg", # 상하이
-                 "video_url": "https://www.youtube.com/watch?v=I2G5Z0Q0000"} # 상하이 브이로그 예시
+                 "image_url": "https://images.unsplash.com/photo-1549448981-d0b8e7225143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 뉴욕 시티 스카이라인
+                 "video_url": "https://www.youtube.com/watch?v=H2G5Z0Q0000"} # 뉴욕 브이로그 예시
             ],
             "good_combinations": [
                 {"type": "INTP", "reason": "ENTJ의 리더십과 INTP의 깊은 분석력이 결합하여 여행지의 복잡한 주제나 숨겨진 의미에 대해 심도 있는 토론을 할 수 있습니다.",
                  "combination_recommendations": [
                      {"name": "스위스 제네바 🇨🇭", "description": "CERN(유럽 입자 물리 연구소)과 같은 과학 연구 기관이 있는 도시로, 물리학과 우주의 비밀을 탐구하기 좋습니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509169-geneva_l.jpg", # 제네바
-                      "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"},
-                     {"name": "독일 베를린 🇩🇪", "description": "역사적, 예술적, 과학적으로 흥미로운 박물관과 갤러리가 많은 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509159-berlin_l.jpg", # 베를린
-                      "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I"}
+                      "image_url": "https://images.unsplash.com/photo-1576483584852-c0e4479e0a0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 제네바
+                      "video_url": "https://www.youtube.com/watch?v=i9a6gT8t81Q"}
                  ]},
                 {"type": "ESTJ", "reason": "비슷하게 목표 지향적이고 효율성을 중시하는 성향으로 여행의 전개나 전략적 요소에 대해 깊이 공감하며 활발한 대화를 나눌 수 있습니다.",
                  "combination_recommendations": [
-                     {"name": "싱가포르 🇸🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509185-singapore_l.jpg", # 싱가포르
-                      "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"},
-                     {"name": "독일 프랑크푸르트 🇩🇪", "description": "유럽의 주요 금융 허브로, 현대적인 건축물과 효율적인 도시 시스템이 특징입니다.",
-                      "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/509000/509193-frankfurt_l.jpg", # 프랑크푸르트
-                      "video_url": "https://www.youtube.com/watch?v=J2G5Z0Q0000"}
+                     {"name": "싱가포르 �🇬", "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시.",
+                      "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 싱가포르
+                      "video_url": "https://www.youtube.com/watch?v=B2G5Z0Q0000"}
                  ]}
             ]
         }
@@ -603,28 +427,28 @@ def main():
             # 추천 여행지 목록 표시 (가로로 나열)
             st.markdown("### 추천 여행지와 그 이유 🌍")
             
-            # 각 여행지를 2개의 컬럼으로 나누어 표시
-            cols = st.columns(2) # 2개의 컬럼 생성
-
+            # 각 여행지를 1개의 컬럼으로 나누어 표시 (하나만 추천하므로)
+            # col = st.columns(1)[0] # 주석 처리하고 아래 for 루프에서 직접 사용
             for i, dest in enumerate(mbti_info["destinations"]):
-                with cols[i % 2]: # 현재 여행지를 해당 컬럼에 배치 (0, 1, 0, 1 순으로 반복)
-                    st.write(f"##### {dest['name']}") # 여행지 이름
-                    
-                    # HTML을 사용하여 이미지에 링크 임베딩
-                    st.markdown(
-                        f"""
-                        <a href="{dest['video_url']}" target="_blank">
-                            <img src="{dest['image_url']}" alt="{dest['name']} 여행 사진" width="300px" style="border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2); object-fit: cover; height: 225px;">
-                        </a>
-                        """,
-                        unsafe_allow_html=True
-                    )
-                    st.markdown(f"**설명:** {dest['description']}") # 여행지 설명
-                    st.success(f"**이 유형에 추천하는 이유:** {dest['relevance']}") # 여행지 관련성
-                    
-                    # 리뷰 영상 검색 링크 추가 (텍스트 링크도 유지)
-                    st.markdown(f"[🎥 **'{dest['name']}' 브이로그/리뷰 영상 보기**]({dest['video_url']})")
-                    st.markdown("<hr style='border:1px solid #f0f2f6'>", unsafe_allow_html=True) # 가벼운 구분선
+                # with col: # 이제 단일 컬럼을 명시적으로 지정
+                st.write(f"##### {dest['name']}") # 여행지 이름
+                
+                # HTML을 사용하여 이미지에 링크 임베딩 (사진이 보이도록 src에 직접 이미지 URL 사용)
+                # width와 height를 조절하여 이미지 크기를 조정했습니다.
+                st.markdown(
+                    f"""
+                    <a href="{dest['video_url']}" target="_blank">
+                        <img src="{dest['image_url']}" alt="{dest['name']} 여행 사진" width="300px" style="border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2); object-fit: cover; height: 225px;">
+                    </a>
+                    """,
+                    unsafe_allow_html=True
+                )
+                st.markdown(f"**설명:** {dest['description']}") # 여행지 설명
+                st.success(f"**이 유형에 추천하는 이유:** {dest['relevance']}") # 여행지 관련성
+                
+                # 리뷰 영상 검색 링크 추가 (텍스트 링크도 유지)
+                st.markdown(f"[🎥 **'{dest['name']}' 브이로그/리뷰 영상 보기**]({dest['video_url']})")
+                st.markdown("<hr style='border:1px solid #f0f2f6'>", unsafe_allow_html=True) # 가벼운 구분선
 
             # 함께 여행 보기에 좋은 MBTI 조합 추천
             if "good_combinations" in mbti_info and mbti_info["good_combinations"]:
@@ -636,25 +460,26 @@ def main():
                     if "combination_recommendations" in combo and combo["combination_recommendations"]:
                         st.markdown(f"**두 분께 추천하는 여행지:**")
                         
-                        # 조합 추천 여행지도 2개의 컬럼으로 나누어 표시
+                        # 조합 추천 여행지도 1개의 컬럼으로 표시 (하나만 추천하므로)
                         combo_destinations = combo["combination_recommendations"]
-                        combo_cols = st.columns(2) # 2개의 컬럼 생성
+                        # combo_col = st.columns(1)[0] # 주석 처리하고 아래 for 루프에서 직접 사용
                         for j, combo_dest in enumerate(combo_destinations):
-                            with combo_cols[j % 2]: # 현재 조합 여행지를 해당 컬럼에 배치
-                                st.write(f"###### {combo_dest['name']}")
-                                
-                                # HTML을 사용하여 이미지에 링크 임베딩
-                                st.markdown(
-                                    f"""
-                                    <a href="{combo_dest['video_url']}" target="_blank">
-                                        <img src="{combo_dest['image_url']}" alt="{combo_dest['name']} 여행 사진" width="200px" style="border-radius: 8px; box-shadow: 2px 1px 4px rgba(0,0,0,0.1); object-fit: cover; height: 150px;">
-                                    </a>
-                                    """,
-                                    unsafe_allow_html=True
-                                )
-                                st.write(f"{combo_dest['description']}")
-                                st.markdown(f"[🎥 **'{combo_dest['name']}' 브이로그/리뷰 영상 보기**]({combo_dest['video_url']})")
-                                st.markdown("<hr style='border:0.5px solid #f0f2f6'>", unsafe_allow_html=True) # 더 가벼운 구분선
+                            # with combo_col: # 이제 단일 컬럼을 명시적으로 지정
+                            st.write(f"###### {combo_dest['name']}")
+                            
+                            # HTML을 사용하여 이미지에 링크 임베딩 (사진이 보이도록 src에 직접 이미지 URL 사용)
+                            # width와 height를 조절하여 이미지 크기를 조정했습니다.
+                            st.markdown(
+                                f"""
+                                <a href="{combo_dest['video_url']}" target="_blank">
+                                    <img src="{combo_dest['image_url']}" alt="{combo_dest['name']} 여행 사진" width="200px" style="border-radius: 8px; box-shadow: 2px 1px 4px rgba(0,0,0,0.1); object-fit: cover; height: 150px;">
+                                </a>
+                                """,
+                                unsafe_allow_html=True
+                            )
+                            st.write(f"{combo_dest['description']}")
+                            st.markdown(f"[🎥 **'{combo_dest['name']}' 브이로그/리뷰 영상 보기**]({combo_dest['video_url']})")
+                            st.markdown("<hr style='border:0.5px solid #f0f2f6'>", unsafe_allow_html=True) # 더 가벼운 구분선
                     st.markdown("---") # 각 조합 사이에 구분선
             else:
                 st.info(f"{selected_mbti} 유형과 함께 여행하기 좋은 특정 MBTI 조합 정보가 아직 없습니다. 😅")
