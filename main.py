@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     # 페이지 설정: 제목과 아이콘을 설정합니다.
-    st.set_page_config(page_title="MBTI 맞춤 영화 추천 서비스", page_icon="🎬")
+    st.set_page_config(page_title="MBTI 맞춤 영화 추천 서비스", page_icon="�")
 
     # 앱의 메인 제목과 설명입니다.
     st.title("💖 MBTI 맞춤 수학 & 과학 명작 영화 추천 서비스 🎥✨")
@@ -176,7 +176,7 @@ def main():
             "good_combinations": [
                 {"type": "INTJ", "reason": "INTP와 INTJ는 모두 논리적이고 분석적인 사고를 선호하여 영화의 과학적, 철학적 의미에 대해 깊이 있는 토론을 할 수 있습니다.",
                  "combination_movie_recommendations": [
-                     {"title": "Coherence (2013) �", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러. INTP와 INTJ는 영화의 복잡한 플롯과 예측 불가능한 전개, 그리고 숨겨진 과학적, 철학적 의미에 대해 밤새도록 토론할 수 있습니다."}
+                     {"title": "Coherence (2013) 🌌", "description": "혜성이 지구에 접근하면서 벌어지는 기이한 현상과 다중 우주를 다룬 저예산 SF 스릴러. INTP와 INTJ는 영화의 복잡한 플롯과 예측 불가능한 전개, 그리고 숨겨진 과학적, 철학적 의미에 대해 밤새도록 토론할 수 있습니다."}
                  ]},
                 {"type": "ENTP", "reason": "비슷한 지적 호기심과 논리적 탐구심을 공유하여 영화의 복잡한 주제에 대해 흥미로운 대화를 나눌 수 있습니다.",
                  "combination_movie_recommendations": [
@@ -366,7 +366,7 @@ def main():
     if selected_mbti:
         st.write(f"---") # 구분선
         st.subheader(f"✨ {selected_mbti} 유형을 위한 맞춤 추천 🍿")
-        st.balloons() # 사용자가 선택하면 풍선 효과를 띄웁니다! 🥳
+        st.snow() # 풍선 대신 눈송이 효과를 띄웁니다! ❄️
 
         # 선택된 MBTI 유형에 대한 정보 가져오기
         mbti_info = mbti_recommendations_full.get(selected_mbti, {})
