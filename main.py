@@ -120,4 +120,3 @@ def main():
 # Streamlit 앱을 실행하는 부분입니다.
 if __name__ == "__main__":
     main()
-�
