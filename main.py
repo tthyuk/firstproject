@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     # 페이지 설정: 제목과 아이콘을 설정합니다.
-    st.set_page_config(page_title="MBTI 맞춤 영화 추천 서비스", page_icon="🎬")
+    st.set_page_config(page_title="MBTI 맞춤 영화 추천 서비스", page_icon="�")
 
     # 앱의 메인 제목과 설명입니다.
     st.title("💖 MBTI 맞춤 수학 & 과학 명작 영화 추천 서비스 🎥✨")
@@ -46,7 +46,7 @@ def main():
             {"title": "Good Will Hunting (1997) ✨", "description": "천재적인 재능을 가졌지만 방황하는 청년이 수학과 심리학을 통해 성장하는 영화. 이상주의적인 INFP에게 공감과 위로를 줄 수 있습니다."}
         ],
         "INTP": [
-            {"title": "Primer (2004) �", "description": "저예산으로 만든 복잡한 시간 여행 영화. 분석적이고 논리적인 사고를 가진 INTP의 탐구심을 자극합니다."},
+            {"title": "Primer (2004) 🧪", "description": "저예산으로 만든 복잡한 시간 여행 영화. 분석적이고 논리적인 사고를 가진 INTP의 탐구심을 자극합니다."},
             {"title": "Interstellar (2014) 🌌", "description": "우주와 시간의 신비를 탐구하는 SF 대작. 이론적이고 탐구적인 INTP에게 끝없는 질문을 던집니다."}
         ],
         "ESTP": [
