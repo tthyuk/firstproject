@@ -128,9 +128,9 @@ def main():
         },
         "제주도": {
             "name": "제주도, 대한민국 🍊",
-            "description": "아름다운 자연 경관과 독특한 문화가 어우러진 섬.",
-            "image_url": "https://images.unsplash.com/photo-1582046522851-f7e912f2c81b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I" # 제주도 브이로그
+            "description": "아름다운 자연 경관과 독특한 문화가 어우러진 섬입니다. 한라산, 성산일출봉 등 다양한 자연 명소와 올레길 같은 체험 코스가 있습니다.",
+            "image_url": "https://images.unsplash.com/photo-1603597402636-f3f9f9b5c3e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", # 제주도 이미지로 변경
+            "video_url": "https://www.youtube.com/watch?v=q6A22M6M21I" # 제주도 브이로그 (유효한 링크 필요시 교체)
         },
         "아일랜드": {
             "name": "아일랜드 ☘️",
@@ -213,7 +213,7 @@ def main():
             "video_url": "https://www.youtube.com/watch?v=H2G5Z0Q0000" # 뉴욕 브이로그
         },
         "싱가포르": {
-            "name": "싱가포르 �🇬",
+            "name": "싱가포르 🇸🇬",
             "description": "깨끗하고 안전하며, 효율적인 대중교통 시스템과 잘 정돈된 관광 인프라를 자랑하는 도시입니다. 계획대로 움직이기에 최적의 장소입니다.",
             "relevance": "ESTJ는 효율성과 질서를 중요하게 생각하며, 잘 정돈된 환경에서 편안함을 느낍니다. 싱가포르는 그들의 계획적인 여행 스타일을 만족시키고, 안전하고 예측 가능한 환경에서 효율적으로 관광할 수 있도록 돕습니다.",
             "image_url": "https://images.unsplash.com/photo-1582236173003-8877e6417736?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
